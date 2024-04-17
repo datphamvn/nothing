@@ -1,0 +1,1820 @@
+{
+  "country": "vn",
+  "language": "en",
+  "outline": {
+    "name": "Computer Science for Beginners",
+    "duration": 5,
+    "child": [
+      {
+        "name": "Introduction to Computer Science",
+        "duration": 0,
+        "child": [
+          {
+            "name": "What is Computer Science?",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "How to learn the basics of computer engineering from an electrical ...",
+                    "link": "https://www.quora.com/How-can-I-learn-the-basics-of-computer-engineering-from-an-electrical-engineering-background",
+                    "snippet": "If computer engineering is a combination of electrical engineering and computer science, what can a computer engineer do that an electrical ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "Computer Science | PDF - Scribd",
+                    "link": "https://www.scribd.com/document/422160479/COMPUTER-SCIENCE",
+                    "snippet": "Find out what is your craving area in computer science is, whether that is algorithms, computer security, or software engineering, high performance computing, ...",
+                    "position": 2
+                  },
+                  {
+                    "title": "What is the best tutorial to learn hacking from scratch in 2 weeks?",
+                    "link": "https://www.quora.com/What-is-the-best-tutorial-to-learn-hacking-from-scratch-in-2-weeks",
+                    "snippet": ", Mfa Computer Science, Computer Hacking (2004). Updated 1y. Related. What is the best resource for learning Ethical Hacking? Okay now I am ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "What are 5 types of computers in terms of their sizes, application ...",
+                    "link": "https://www.quora.com/What-are-5-types-of-computers-in-terms-of-their-sizes-application-and-relation-to-each-other",
+                    "snippet": "B.S. in Information and Computer Science & Systems Programming ... What is the classification of computer? ... Personal Computers (PCs) - A personal ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "How many types of computers describe the basics of size? - Quora",
+                    "link": "https://www.quora.com/How-many-types-of-computers-describe-the-basics-of-size",
+                    "snippet": "B.S. in Information and Computer Science & Systems Programming ... https://youtube.com/channel ... What are the 10 types of computers? A computer is ...",
+                    "position": 5
+                  },
+                  {
+                    "title": "1.1 1 Computer Hardware | PDF - Scribd",
+                    "link": "https://www.scribd.com/document/414232687/1-1-1-Computer-Hardware",
+                    "snippet": "overview of computers: What they are, the different types of computer. ... https://www.scribd.com/document ... Computers: What Is A Computer Program ...",
+                    "position": 6
+                  },
+                  {
+                    "title": "Lecture 1 - CS50x PDF | PDF | Integer (Computer Science) - Scribd",
+                    "link": "https://www.scribd.com/document/436826160/Lecture-1-CS50x-pdf",
+                    "snippet": "alan/) can easily write programs that are ultimately just binary, 0s and 1s. (https://www.quora.com ... introduced to. The “say (hello, world)” block is ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "Stage 2 - Getting Started Resources | PDF | Computer Programming",
+                    "link": "https://www.scribd.com/document/549377709/Stage-2-Getting-Started-Resources",
+                    "snippet": "What is Competitive Programming? You keep hearing about Competitive ... quora.com/topic/CodeChef?q=codechef ○ https://www.youtube.com/channel/ ...",
+                    "position": 8
+                  },
+                  {
+                    "title": "What are the five major categories of computers in terms of size?",
+                    "link": "https://www.quora.com/What-are-the-five-major-categories-of-computers-in-terms-of-size",
+                    "snippet": "B.S. in Information and Computer Science & Systems Programming ... What is Computer and types of Computers? 102 ... Overview [ edit ] ATX is the ...",
+                    "position": 9
+                  },
+                  {
+                    "title": "A Comprehensive Collection of Online Resources for Learning ...",
+                    "link": "https://www.scribd.com/document/347047266/Download-Sequence",
+                    "snippet": "https://www.quora.com/What-will-be-the-scope-of ... computer-science/6-01sc-i ntroduction-to ... The MIT recommended order for watching this is 6.042J (Mathematics ...",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Computer Science Fields Of Study - YouTube",
+                    "link": "https://www.youtube.com/watch?v=9dkGd2u7yYM",
+                    "snippet": "Learn What is Computer Science . Computer Science Fields Of Study. CS Research Areas. Introduction To Computer Science.",
+                    "imageUrl": "https://i.ytimg.com/vi/9dkGd2u7yYM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nRNL1X5hxo_LpvMBLwCOtxIehBaA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Jun 8, 2019",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Harvard CS50 – Full Computer Science University Course",
+                    "link": "https://www.youtube.com/watch?v=8mAITcNt710",
+                    "snippet": "Learn the basics of computer science from Harvard University. This is CS50, an introduction to the intellectual enterprises of computer ...",
+                    "imageUrl": "https://i.ytimg.com/vi/8mAITcNt710/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nTB9K-_VTjSz4kx7OUytGlJ35uHA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Oct 19, 2022",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What is computer science? - YouTube",
+                    "link": "https://m.youtube.com/watch?v=-xFJM3QQ3TE&embeds_referring_euri=https%3A%2F%2Fwww.amr-insights.eu%2F&feature=emb_imp_woyt",
+                    "snippet": "... computer's language, or code. We use computers ... Introduction to Programming and Computer Science - Full Course ... What is Computer Science? Zach ...",
+                    "imageUrl": "https://i.ytimg.com/vi/-xFJM3QQ3TE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lu420Y9EtEBptU4X2GGzXG8SRpmA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "TechPrep by Facebook",
+                    "date": "Oct 21, 2015",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Lec 24 | MIT 6.00 Introduction to Computer Science ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=2q--tAPkVXI",
+                    "snippet": "This is a solid introductory class in computer science that should held all students majoring in computer science.",
+                    "imageUrl": "https://i.ytimg.com/vi/2q--tAPkVXI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kLgqzp324yclBsxB8g3zF1YNyTVw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIT OpenCourseWare",
+                    "date": "Aug 20, 2009",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Science Course Overview - YouTube",
+                    "link": "https://www.youtube.com/watch?v=Pm_WAWZNbdA",
+                    "snippet": "This video is from Udacity's introductory, self-paced programming ... Introduction to Computer Science Course Overview ... What is Computer Science?",
+                    "imageUrl": "https://i.ytimg.com/vi/Pm_WAWZNbdA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mRyDObxy_UipOI0A8wbU1NUkZ6ZQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Udacity",
+                    "date": "Apr 25, 2014",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Everything You'll Learn In Computer Science - YouTube",
+                    "link": "https://www.youtube.com/watch?v=B0ukPD8go4w",
+                    "snippet": "Computer Science/Computer Engineering. Zach ... | What is Computer Engineering? | Jobs for ... When Computers Write Proofs, What's the Point of ...",
+                    "imageUrl": "https://i.ytimg.com/vi/B0ukPD8go4w/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ks3dP7-M7-vrMWvfr4eaYGdWPZZw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Becoming an Engineer",
+                    "date": "Nov 27, 2023",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Lec 1 | MIT 6.00 Introduction to Computer Science ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=k6U-i4gXkLM",
+                    "snippet": "Lecture 1: Goals of the course; what is computation; introduction ... Advice to all beginner programmers: computer science is not that hard, it ...",
+                    "imageUrl": "https://i.ytimg.com/vi/k6U-i4gXkLM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lMVowie4IYhw86bs7k39oheqdGXw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIT OpenCourseWare",
+                    "date": "Aug 20, 2009",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "1. What is Computation? - YouTube",
+                    "link": "https://www.youtube.com/watch?v=nykOeWgQcHM",
+                    "snippet": "MIT 6.0001 Introduction to Computer Science and Programming in Python, Fall 2016 Instructor: Dr ... What is ... Stephen Wolfram: What is Computation ...",
+                    "imageUrl": "https://i.ytimg.com/vi/nykOeWgQcHM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kBzWtpnoAWqXSI2jeMciYiqaznUw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIT OpenCourseWare",
+                    "date": "Jul 31, 2019",
+                    "position": 10,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Programming and Computer Science - YouTube",
+                    "link": "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+                    "snippet": ") What is Programming? ⌨️ (06:19) How do ... 14:46) What can Computers Do? ... Introduction to Programming and Computer Science - Full Course.",
+                    "imageUrl": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kx11zVEBngoh5aY9HyxnPC-Zng8g",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Apr 21, 2020",
+                    "position": 1,
+                    "deltaduration": 1
+                  },
+                  {
+                    "title": "Harvard CS50 (2023) – Full Computer Science ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=LfaMVlDaQ24",
+                    "snippet": "Learn the basics of computer science from Harvard University. This is CS50, an introduction to the intellectual enterprises of computer ...",
+                    "imageUrl": "https://i.ytimg.com/vi/LfaMVlDaQ24/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mqSA4pMtWJX66RdrNur1g0CZd0zQ",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Oct 24, 2023",
+                    "position": 5,
+                    "deltaduration": 1
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d0b",
+            "status": "None"
+          },
+          {
+            "name": "History of Computer Science",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "How to learn the basics of computer engineering from an electrical ...",
+                    "link": "https://www.quora.com/How-can-I-learn-the-basics-of-computer-engineering-from-an-electrical-engineering-background",
+                    "snippet": "Computer science is the theory of computation and thus programming. ... history is ... Computer science is not a science and it's not about ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "Computer Science | PDF - Scribd",
+                    "link": "https://www.scribd.com/document/422160479/COMPUTER-SCIENCE",
+                    "snippet": "Chapter 4 Overview of Computer Science ... milestones in the history of Computer Science took place in Unix/Linux only. ... history of computing, computer",
+                    "position": 2
+                  },
+                  {
+                    "title": "What are 5 types of computers in terms of their sizes, application ...",
+                    "link": "https://www.quora.com/What-are-5-types-of-computers-in-terms-of-their-sizes-application-and-relation-to-each-other",
+                    "snippet": "B.S. in Information and Computer Science & Systems Programming ... This is a history of the early and great computers of the 20th century. ... The ...",
+                    "position": 3
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Introduction to Computer Science (CS 101) for Beginners ...",
+                    "link": "https://www.youtube.com/watch?v=CNFK86hJRfE",
+                    "snippet": "In this workshop, you will be introduced to fundamental Computer Science (CS) concepts. This workshop unpacks the history of computer ...",
+                    "imageUrl": "https://i.ytimg.com/vi/CNFK86hJRfE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kjwMW8PJPatr1EYMg6eSXsc9eSqA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Treehouse",
+                    "date": "Aug 5, 2021",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "History of Computer Science for Kids | Bedtime History",
+                    "link": "https://www.youtube.com/watch?v=hapW36HQqKY",
+                    "snippet": "... of-computer-science-for-kids/) Subscribe to the Podcast ▷ (https://podcasts.apple.com/us/podcast/bedtime-history-inspirational-stories-for ...",
+                    "imageUrl": "https://i.ytimg.com/vi/hapW36HQqKY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l-gluwCeZinZUVqxqs41bK6qHiCw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Bedtime History",
+                    "date": "Jul 30, 2018",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "The History of Computer Science with Professor Jim Al-Khalili ...",
+                    "link": "https://www.youtube.com/watch?v=8KHuSw0W6OA",
+                    "snippet": "The history of computer science. Professor Jim Al-Khalili unwraps the evolutionary histories responsible for the modern human condition, ...",
+                    "imageUrl": "https://i.ytimg.com/vi/8KHuSw0W6OA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lMeSBCCaWjZ-FMSkeAQWqk-v4k3Q",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Doc of the Day",
+                    "date": "Jul 22, 2023",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to computers and complete History Education for all",
+                    "link": "https://www.youtube.com/watch?v=z3KnlfATUek",
+                    "snippet": "INTRODUCTION OF COMPUTER CONCEPTS Unit No. 1 COMPUTER AND PROCESSORS a) Definition, Characteristics and history and types of Computer b) ...",
+                    "imageUrl": "https://i.ytimg.com/vi/z3KnlfATUek/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kyw18dHZubL5KljDOqamBIXbRgLw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Computer Education For all",
+                    "date": "Nov 15, 2016",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Science | CS for Beginners",
+                    "link": "https://www.youtube.com/watch?v=PERlPmNPKTE",
+                    "snippet": "Introduction to Computer Science ☑️ History of Computers and the Internet ☑️ Computer Components ☑️ Bits and Bytes ☑️ Data Types ...",
+                    "imageUrl": "https://i.ytimg.com/vi/PERlPmNPKTE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ljySmL1Rowf2EaKL-PgYCwGGfnvQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Treehouse",
+                    "date": "May 6, 2021",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science for Everyone - 14 - History of Java",
+                    "link": "https://www.youtube.com/watch?v=L9mxCfkEYJ0",
+                    "snippet": "Computer Science for Everyone - 14 - History of Java \"Computer Science for Everyone\" is an online course that covers all of the most ...",
+                    "imageUrl": "https://i.ytimg.com/vi/L9mxCfkEYJ0/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k4UdkuVLV8WenhWsTrR5FmrvH5CQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "teclado",
+                    "date": "Jul 31, 2014",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "The Origin of Computer Science (Leibniz, Boole, Babbage ...",
+                    "link": "https://www.youtube.com/watch?v=fjMU-km-Cso",
+                    "snippet": "Introduction to our series on the origins and history of Computer Science. The story of a collision between math and philosophy featuring ...",
+                    "imageUrl": "https://i.ytimg.com/vi/fjMU-km-Cso/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mCWK9etCiQ7mmMFaM53m8uAluuyg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Art of the Problem",
+                    "date": "Jan 20, 2016",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Lec 24 | MIT 6.00 Introduction to Computer Science and ...",
+                    "link": "https://www.youtube.com/watch?v=2q--tAPkVXI",
+                    "snippet": "Lec 24 | MIT 6.00 Introduction to Computer Science and Programming, Fall 2008 ... Of ... SpaceX Orbit Largest Spacecraft In History also SpaceX ...",
+                    "imageUrl": "https://i.ytimg.com/vi/2q--tAPkVXI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kLgqzp324yclBsxB8g3zF1YNyTVw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIT OpenCourseWare",
+                    "date": "Aug 20, 2009",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Early Computing: Crash Course Computer Science #1",
+                    "link": "https://www.youtube.com/watch?v=O5nskjZ_GoI",
+                    "snippet": "procrastinating on my actual studies to ... Intro to Algorithms: Crash Course Computer Science #13 ... The History of Computing. Futurology — An ...",
+                    "imageUrl": "https://i.ytimg.com/vi/O5nskjZ_GoI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mXM4FUZ6bVDpiAb6MYkRFAZGKi6Q",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "CrashCourse",
+                    "date": "Feb 22, 2017",
+                    "position": 10,
+                    "deltaduration": 0
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d0c",
+            "status": "done"
+          },
+          {
+            "name": "Applications of Computer Science",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "How to learn the basics of computer engineering from an electrical ...",
+                    "link": "https://www.quora.com/How-can-I-learn-the-basics-of-computer-engineering-from-an-electrical-engineering-background",
+                    "snippet": "... applications ... Computer science is the theory of computation and thus programming. ... Computer science is not a science and it's not about ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "What is the best tutorial to learn hacking from scratch in 2 weeks?",
+                    "link": "https://www.quora.com/What-is-the-best-tutorial-to-learn-hacking-from-scratch-in-2-weeks",
+                    "snippet": "... applications that fill needs of specific group of ... programming ... Computer Science and had spent two years in grad school for Computer Science.",
+                    "position": 2
+                  },
+                  {
+                    "title": "Computer Science | PDF - Scribd",
+                    "link": "https://www.scribd.com/document/422160479/COMPUTER-SCIENCE",
+                    "snippet": "Chapter 4 Overview of Computer Science Degree Programs 41 ... of skills a computer science student should have, plus a selection of tool and ... Applications. Ashok ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "What books are a good introduction to game theory? - Quora",
+                    "link": "https://www.quora.com/What-books-are-a-good-introduction-to-game-theory",
+                    "snippet": "What are some applications of game theory in computer science? 16,220 Views.",
+                    "position": 4
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Applications of Computer - YouTube",
+                    "link": "https://www.youtube.com/watch?v=ac7T3ocg9gk",
+                    "snippet": "Applications Of Computers In Education, Computer Science Lecture | Sabaq.pk. Sabaq Foundation - Free Videos & Tests, Grades K-14•43K views.",
+                    "imageUrl": "https://i.ytimg.com/vi/ac7T3ocg9gk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l7mHk-xa1qR1C1HjXzVSR4KdvUBg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "APC BOOKS",
+                    "date": "May 3, 2016",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "3 years of Computer Science in 8 minutes - YouTube",
+                    "link": "https://www.youtube.com/watch?v=ReVeUvwTGdU",
+                    "snippet": "... of computer science in 8 minutes (kind of) ... Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED ... Applications. Devon ...",
+                    "imageUrl": "https://i.ytimg.com/vi/ReVeUvwTGdU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ksTUU3_16y8zGZx5JEPzImGlyrww",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Devon Crawford",
+                    "date": "Jul 24, 2018",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Intro to Computer Science: Class Overview, Homework & Why ...",
+                    "link": "https://www.youtube.com/watch?v=0fbxdwIVUCc",
+                    "snippet": "... skills. The Importance of Computer Science: Why study computer science? We delve into the incredible opportunities and real-world applications ...",
+                    "imageUrl": "https://i.ytimg.com/vi/0fbxdwIVUCc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l0Gu6SZYZpaXNcKbhJhttXfxtp0w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "STEAM IT with Steve",
+                    "date": "Nov 20, 2023",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Science Course Overview - YouTube",
+                    "link": "https://www.youtube.com/watch?v=Pm_WAWZNbdA",
+                    "snippet": "... computer science concepts by building your own versions of popular web applications. You'll learn Python, a powerful, easy-to-learn, and ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Pm_WAWZNbdA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mRyDObxy_UipOI0A8wbU1NUkZ6ZQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Udacity",
+                    "date": "Apr 25, 2014",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science Fundamentals with Python - YouTube",
+                    "link": "https://www.youtube.com/watch?v=6INc2rERSig",
+                    "snippet": "... of the foundational concepts that are important for every computer science student to understand. ... Building AI ready applications ...",
+                    "imageUrl": "https://i.ytimg.com/vi/6INc2rERSig/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3li9CjTTScO0jd4DS0KIfaQwLODcA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Microsoft Developer",
+                    "date": "Oct 17, 2020",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Applications of Computer Graphics (ft. Wenzel Jakob) - YouTube",
+                    "link": "https://www.youtube.com/watch?v=T7Ngx5GDWIo",
+                    "snippet": "Map of Computer Science. Domain of Science•6M ... Invention Of Computer Programming ... 1.2- Applications Of Computer Graphics | computer graphics ...",
+                    "imageUrl": "https://i.ytimg.com/vi/T7Ngx5GDWIo/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lE-cIkdWJ1XHPLWVz5SaF1Gt-N9w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "ZettaBytes, EPFL",
+                    "date": "Apr 12, 2017",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "A Comprehensive Guide to Applications of Computers ...",
+                    "link": "https://www.youtube.com/watch?v=vH-Ff6bMc8s",
+                    "snippet": "... of \"Applications of Computers\" in Part 4 of our \"Introduction to Programming and Computer Science\" series. Don't forget to subscribe and hit ...",
+                    "imageUrl": "https://i.ytimg.com/vi/vH-Ff6bMc8s/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kzs6vjpKzP9BXCSf0XE_tMqv6EXA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Edure Learning",
+                    "date": "May 3, 2023",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Lec 15 | MIT 6.00 Introduction to Computer Science ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=y81AhLQN-NI",
+                    "snippet": "Lec 15 | MIT 6.00 Introduction to Computer Science and Programming, Fall 2008 ... Lecture 1 | The Fourier Transforms and its Applications.",
+                    "imageUrl": "https://i.ytimg.com/vi/y81AhLQN-NI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nlCkrgAIbZxcQNHIfMxdf2yJpOvA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIT OpenCourseWare",
+                    "date": "Aug 20, 2009",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Programming and Computer Science - YouTube",
+                    "link": "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+                    "snippet": "In this course, you will learn basics of computer programming and computer science ... ⌨️ (1:55:34) Applications of Programming ... Introduction to ...",
+                    "imageUrl": "https://i.ytimg.com/vi/zOjov-2OZ0E/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kx11zVEBngoh5aY9HyxnPC-Zng8g",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Apr 21, 2020",
+                    "position": 8,
+                    "deltaduration": 1
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d0d",
+            "status": "None"
+          },
+          {
+            "name": "New Topic",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "A Brief Introduction to Computer Science",
+                    "link": "https://www.tsin.org/brief-intro-to-cs",
+                    "snippet": "A Brief Introduction to Computer Science ... Bear with us as we explore the topic of computer science ... We understand that introducing a new subject like computer ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "A Brief Introduction to Computer Science - LinkedIn",
+                    "link": "https://www.linkedin.com/pulse/brief-introduction-computer-science-pntlc",
+                    "snippet": "A Brief Introduction ... Bear with us as we explore the topic of computer science ... How can you adapt your computer science skills to new work ...",
+                    "position": 2
+                  },
+                  {
+                    "title": "GitHub - TEALSK12/introduction-to-computer-science",
+                    "link": "https://github.com/TEALSK12/introduction-to-computer-science",
+                    "snippet": "Microsoft TEALS Program - Introduction to Computer Science - TEALSK12/introduction-to-computer-science. ... new topic or new application. It is intended that ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "Introduction to Computer Science and Programming Specialization",
+                    "link": "https://www.coursera.org/specializations/introduction-computer-science-programming",
+                    "snippet": "... skills I learned from my courses to an exciting new project at work.\" New to Software Development? Start here. 5 Entry-Level Programming Jobs + How to Get One.",
+                    "position": 4
+                  },
+                  {
+                    "title": "Introduction to Computer Science 1 - 5002010 | CPALMS.org",
+                    "link": "https://www.cpalms.org/PreviewCourse/Preview/14587",
+                    "snippet": "Introduction to Computer Science 1. ... Topic/Cluster Show Clarifications Show Color. 62 ... A Giant of Size and Power – Part Two: How the Form of a Sonnet ...",
+                    "position": 5
+                  },
+                  {
+                    "title": "CS1001.py: A topic-based introduction to computer science ...",
+                    "link": "https://www.researchgate.net/publication/254461493_CS1001py_A_topic-based_introduction_to_computer_science",
+                    "snippet": "Request PDF | CS1001.py: A topic-based introduction to computer science ... CS1001.py: A topic-based introduction to computer science ... new topics/courses are ...",
+                    "position": 6
+                  },
+                  {
+                    "title": "HarvardX: CS50's Introduction to Computer Science - edX",
+                    "link": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science?source=post_page---------------------------#!",
+                    "snippet": "An introduction to the intellectual enterprises of computer science and the art of programming ... Explore the Computer Science topic. Explore the ... START A NEW ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "Intro to CS - MakeCode",
+                    "link": "https://makecode.microbit.org/courses/csintro",
+                    "snippet": "A 14 week Introduction to Computer Science course. This ... Topic Introduction; Unplugged Activity (30 min) ... How do I add a new language? Translate this page.",
+                    "position": 8
+                  },
+                  {
+                    "title": "10 Best Computer Science Courses to Take in 2022 - freeCodeCamp",
+                    "link": "https://www.freecodecamp.org/news/best-computer-science-courses/",
+                    "snippet": "... computers, you'll come out of this course having learned something new. ... topic to topic. You'll explore SQL, the ... Introduction to Computer ...",
+                    "position": 9
+                  },
+                  {
+                    "title": "The Best Intro to Computer Science Courses, According to your ...",
+                    "link": "https://www.classcentral.com/report/best-intro-computer-science-courses/",
+                    "snippet": "” Since this guide is for learners new to computer science, I'd think that courses teaching computational thinking are more appropriate ...",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "IB Computer Science - Topic 1 - System Fundamentals",
+                    "link": "https://www.youtube.com/watch?v=VokDya9Wy1A",
+                    "snippet": "/ cs_classroom 00:00 - Intro 00:59 - Transitioning to a New ... IB Computer Science - Topic 2 - Computer ... IB Computer Science - Topic 5 - Part 1 ...",
+                    "imageUrl": "https://i.ytimg.com/vi/VokDya9Wy1A/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l74pKhdz6AgGmcecrMgOIFXXD51Q",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "The CS Classroom",
+                    "date": "Feb 8, 2023",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Harvard CS50 – Full Computer Science University Course",
+                    "link": "https://www.youtube.com/watch?v=8mAITcNt710",
+                    "snippet": "... topic/CS50 Reddit: https ... This is CS50, an introduction to the intellectual enterprises of computer science and the art of programming. ... NEW ...",
+                    "imageUrl": "https://i.ytimg.com/vi/8mAITcNt710/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nTB9K-_VTjSz4kx7OUytGlJ35uHA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Oct 19, 2022",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Programming - Class 1",
+                    "link": "https://www.youtube.com/watch?v=NeBZa6Tiq8Q",
+                    "snippet": "... New York ... Introduction to Computer Programming ... Complete Dynamic Programming Practice - Noob to Expert (Continued) | Topic Stream 2.",
+                    "imageUrl": "https://i.ytimg.com/vi/NeBZa6Tiq8Q/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n9zMopawPS2ejUg1PRg5J0mV3xvQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Code Heroku",
+                    "date": "Apr 7, 2019",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Vision - Part I",
+                    "link": "https://www.youtube.com/watch?v=hbHWKsg4CUM",
+                    "snippet": "✨ Topic: Introduction to Computer Vision ... ✨ Topic: Introduction to Computer Vision - Part I ... Wonder Science New 1K views &middot; 12:48 &middot; Go to ...",
+                    "imageUrl": "https://i.ytimg.com/vi/hbHWKsg4CUM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lBQGsDgBdDrwXX2OxP1LNVgxv_1g",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Women Who Code",
+                    "date": "2 weeks ago",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction to Computer Vision - Part II",
+                    "link": "https://www.youtube.com/watch?v=EVIlOPqdRHE",
+                    "snippet": "✨ Topic: Introduction to Computer Vision ... With a background in computer science ... Introduction to Computer Vision - Part I. Women Who Code New ...",
+                    "imageUrl": "https://i.ytimg.com/vi/EVIlOPqdRHE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mtWf0N9KjcKlycB7ndw5mogromew",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Women Who Code",
+                    "date": "2 weeks ago",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Getting Started with Week 1 of CSC-120 Computing ...",
+                    "link": "https://www.youtube.com/watch?v=_h26SBCGi2I",
+                    "snippet": "Complete Dynamic Programming Practice - Noob to Expert (Continued) | Topic Stream 2 ... Python OOP Tutorial (Object Orientated Programming ) - ...",
+                    "imageUrl": "https://i.ytimg.com/vi/_h26SBCGi2I/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3neqFtnmXp9FnVlc_BjM4utDHcKjw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Ken Clifton",
+                    "date": "Aug 23, 2021",
+                    "position": 10,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Harvard CS50 (2023) – Full Computer Science University ...",
+                    "link": "https://www.youtube.com/watch?v=LfaMVlDaQ24",
+                    "snippet": "This is CS50, an introduction to the intellectual enterprises of computer science and the art of programming. ... topic/CS50 Reddit: / cs50 Slack: ...",
+                    "imageUrl": "https://i.ytimg.com/vi/LfaMVlDaQ24/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mqSA4pMtWJX66RdrNur1g0CZd0zQ",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "freeCodeCamp.org",
+                    "date": "Oct 24, 2023",
+                    "position": 2,
+                    "deltaduration": 1
+                  },
+                  {
+                    "title": "CS50 2020 - Lecture 0 - Scratch",
+                    "link": "https://www.youtube.com/watch?v=YoXxevp1WRQ",
+                    "snippet": "... topic/CS50 Slack: https ... introduction to the intellectual enterprises of computer science and the art of programming. *** ... Farzad New 358K ...",
+                    "imageUrl": "https://i.ytimg.com/vi/YoXxevp1WRQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nZbbYnf5NRRWT4g9MRsnnmKpZ4Xw",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "CS50",
+                    "date": "Dec 31, 2020",
+                    "position": 5,
+                    "deltaduration": 1
+                  },
+                  {
+                    "title": "Large Language Models and The End of Programming - CS50 ...",
+                    "link": "https://www.youtube.com/watch?v=JhCl-GeT4jw",
+                    "snippet": "... new computational platform with AI at the ... topic/CS50 Reddit: https ... *** This is CS50, Harvard University's introduction to the intellectual ...",
+                    "imageUrl": "https://i.ytimg.com/vi/JhCl-GeT4jw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lf34YeMOVzUR_o1rJlZG0R0fmNDg",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "CS50",
+                    "date": "Oct 29, 2023",
+                    "position": 8,
+                    "deltaduration": 1
+                  },
+                  {
+                    "title": "CS50x 2023 - Lecture 0 - Scratch",
+                    "link": "https://www.youtube.com/watch?v=IDDmrzzB14M",
+                    "snippet": "... topic/CS50 Reddit: https ... *** This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art ...",
+                    "imageUrl": "https://i.ytimg.com/vi/IDDmrzzB14M/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kok-hGPJenQWTDf0CD8EXRGt2t0Q",
+                    "duration": 2,
+                    "source": "YouTube",
+                    "channel": "CS50",
+                    "date": "Aug 31, 2022",
+                    "position": 4,
+                    "deltaduration": 2
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d0e",
+            "status": "None"
+          }
+        ]
+      },
+      {
+        "name": "Computer Hardware",
+        "duration": 0,
+        "child": [
+          {
+            "name": "Types of Computer Hardware",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "Computer hardware - Wikipedia",
+                    "link": "https://en.wikipedia.org/wiki/Computer_hardware",
+                    "snippet": "Computer hardware includes the physical parts of a computer ... Types of computer systems edit. Personal computer ... History of computing hardware · Microprocessor ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "Types of Computer Hardware - EDUCBA",
+                    "link": "https://www.educba.com/types-of-computer-hardware/",
+                    "snippet": "Guide to Types of Computer Hardware. Here we discuss the introduction to computer hardware, with 7 different types of computer hardware.",
+                    "position": 2
+                  },
+                  {
+                    "title": "Topic B: Computer hardware and software - BC Open Textbooks",
+                    "link": "https://opentextbc.ca/computerstudies/chapter/computer-hardware-and-software/",
+                    "snippet": "Software – a set of instructions or programs that tells a computer what to do or how to perform a specific task (computer software runs on hardware). Main types ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "11 Basic Components of Computer Hardware: Tips for Technicians",
+                    "link": "https://www.indeed.com/career-advice/career-development/what-are-basic-components-of-computer-hardware",
+                    "snippet": "Computer hardware includes the physical parts of a computer. ... types of errors might affect a computer's RAM operation. ... Typically, it's a power cord connected ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "Computer Hardware - GeeksforGeeks",
+                    "link": "https://www.geeksforgeeks.org/computer-hardware/",
+                    "snippet": "Computer hardware includes the physical parts of a computer ... Computer hardware is a physical device of computers ... Types of Computer Ports.",
+                    "position": 5
+                  },
+                  {
+                    "title": "Computer Hardware | Definition, Components & Examples - Lesson",
+                    "link": "https://study.com/academy/lesson/what-is-computer-hardware-components-definition-examples.html",
+                    "snippet": "Some hardware components are easy to recognize, such as the computer case, keyboard, and monitor. However, there are many different types of hardware components ...",
+                    "position": 6
+                  },
+                  {
+                    "title": "Computer Hardware Components Explained - HIOD IT",
+                    "link": "https://www.hiodit.com.au/it-support-blog/computer-hardware-components/",
+                    "snippet": "Collectively, these hardware components make up the computer system. Input Devices. Input devices comprise of any devices that users need in ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "What is Computer Hardware | Computer Basics - Vedantu",
+                    "link": "https://www.vedantu.com/coding-for-kids/computer-hardware",
+                    "snippet": "Different Types of Computer Hardware · Motherboard · Monitor · Keyboard · Mouse · Relationship between the Hardware Devices and Software · Key Learnings from the ...",
+                    "position": 8
+                  },
+                  {
+                    "title": "What Is Computer Hardware? - IT Glossary - SolarWinds",
+                    "link": "https://www.solarwinds.com/resources/it-glossary/computer-hardware",
+                    "snippet": "There are two types of computer hardware: external and internal. External hardware devices include monitors, keyboards, printers, and scanners, whereas internal ...",
+                    "position": 9
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Computer Hardware : Types of Computer Hardware (02:01)",
+                    "link": "https://www.youtube.com/watch?v=vnBQ8QB2aRM",
+                    "snippet": "Computer Hardware : Types of Computer Hardware (02:01) Lesson 1 in our Computer Hardware series. This is part of our Introduction to ...",
+                    "imageUrl": "https://i.ytimg.com/vi/vnBQ8QB2aRM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kdPrwdx-LykK33_qW-cjtNKpQKzQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Mr. Ford's Class",
+                    "date": "May 24, 2014",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Basics of Computing (Part 2): Types of Computer Hardware",
+                    "link": "https://www.youtube.com/watch?v=FpeTEfvuOl4",
+                    "snippet": "Computer Hardware: Physical components of a computer ... Basics of Computing (Part 2): Types of Computer Hardware ... Types of Computer Software.",
+                    "imageUrl": "https://i.ytimg.com/vi/FpeTEfvuOl4/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3luXE8gGq5QSVjaiEKG5cx4ScC7Aw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Cyber Technology",
+                    "date": "Jan 4, 2024",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "TYPES OF HARDWARE || INTERNAL HARDWARE ...",
+                    "link": "https://www.youtube.com/watch?v=SSnNY8GfZig",
+                    "snippet": "... COMPUTER BASICS , THE TYPES OF HARDWARE LIKE INTERNAL HARDWARE AND EXTERNAL HARDWARE, AT THE END OF THE VIDEO THERE IS QUIZ ON THIS TOPIC.",
+                    "imageUrl": "https://i.ytimg.com/vi/SSnNY8GfZig/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kKkMHoKZLLZvMr6E4Y6I2wVB3lZA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Make It Easy Education",
+                    "date": "Sep 30, 2020",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science Lesson 55: The Categories of Computer ...",
+                    "link": "https://www.youtube.com/watch?v=dhe6ecxELAc",
+                    "snippet": "Computer Science Lesson 55: The Categories of Computer Hardware ... Computer parts Explained. Basics Explained ... Types of Operating System (Batch ...",
+                    "imageUrl": "https://i.ytimg.com/vi/dhe6ecxELAc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mmNMFXx38EamJdsVUrDXIsFou1HA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Shule Television Network",
+                    "date": "Jun 24, 2023",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What Is Computer Hardware ? | Beginners Guide To ...",
+                    "link": "https://www.youtube.com/watch?v=8_itvuz5Dc4",
+                    "snippet": "The two types of computer components are software components and the hardware components. The software components provide a set of ...",
+                    "imageUrl": "https://i.ytimg.com/vi/8_itvuz5Dc4/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kZULOSvbtI4vD5N8BkOO3Y8-eImA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Oct 3, 2022",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science Lesson 19: Types of Computer Hardware",
+                    "link": "https://www.youtube.com/watch?v=2bBKXyq4HJI",
+                    "snippet": "Comments &middot; What Is Computer Hardware ? &middot; Types of Computer | analog digital hybrid | mini micro mainframe super &middot; Computer Science Lesson 1: ...",
+                    "imageUrl": "https://i.ytimg.com/vi/2bBKXyq4HJI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lBjqpylUqCDMgKCjoHZUenlJAUXA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Shule Television Network",
+                    "date": "Nov 23, 2022",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "COMPUTER HARDWARE AND SOFTWARE || COMPUTER ...",
+                    "link": "https://www.youtube.com/watch?v=zlT-Lg_QFTA",
+                    "snippet": "TYPES OF HARDWARE || INTERNAL HARDWARE || EXTERNAL HARDWARE || COMPUTER FUNDAMENTALS. Make It Easy Education•211K views &middot; 3:12 &middot; Go to channel ...",
+                    "imageUrl": "https://i.ytimg.com/vi/zlT-Lg_QFTA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mf0CSwhzh8n7BTStneG9xsq1ZEWQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Make It Easy Education",
+                    "date": "Sep 16, 2020",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Hardware | Types of Input Device, Output Device ...",
+                    "link": "https://www.youtube.com/watch?v=7biyGy5j-B8",
+                    "snippet": "This video Clip provide information about 1. What is Computer Hardware ? 2. What are the different types of Hardware? Notes of this video ...",
+                    "imageUrl": "https://i.ytimg.com/vi/7biyGy5j-B8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lugo2e76NbE6xnfQQOxxKuNLthBA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "5Minutes Information Channel",
+                    "date": "Mar 5, 2023",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What is Computer Hardware? in detail | Type of hardware",
+                    "link": "https://www.youtube.com/watch?v=IwsStNJFHpU",
+                    "snippet": "what is hardware types of hardware computer hardware computer hardware in details SUBSCRIBE Our Channel @KeyPoints Education In this video, ...",
+                    "imageUrl": "https://i.ytimg.com/vi/IwsStNJFHpU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nR84RH3GBJYR4fO86mW7SViUghmQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "KeyPoints Education",
+                    "date": "Oct 8, 2021",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Hardware and Its types | Simply Explained in Detail ...",
+                    "link": "https://www.youtube.com/watch?v=90KKVaMvSWg",
+                    "snippet": "Youtube channel. About this video It's all about computer hardware and its types. You will know all the hardware parts of the computer ...",
+                    "imageUrl": "https://i.ytimg.com/vi/90KKVaMvSWg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mCVeZ8B3yPftmFBbahxx6ltW3Wtw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "SAHANI Sir",
+                    "date": "Jul 8, 2023",
+                    "position": 10,
+                    "deltaduration": 0
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d0f",
+            "status": "None"
+          },
+          {
+            "name": "Functions of Computer Hardware",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "Functions of Computer Hardware Components",
+                    "link": "https://computerhardwarecomponentsandfunctions.wordpress.com/",
+                    "snippet": "Functions of Computer Hardware Components · Post navigation · Internal System Unit Components · Hard Drive Configuration and Controllers (e.g. IDE, SATA, Master/ ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "Topic B: Computer hardware and software - BC Open Textbooks",
+                    "link": "https://opentextbc.ca/computerstudies/chapter/computer-hardware-and-software/",
+                    "snippet": "Evolution of computers ... components) – any piece of hardware device that is located inside the computer. ... Main functions of an operating system – booting the ...",
+                    "position": 2
+                  },
+                  {
+                    "title": "Computer Hardware Components and their Functions - Xpart Info",
+                    "link": "https://www.xpartinfo.com/2023/07/Computer-Hardware-Components.html?m=1",
+                    "snippet": "In this post, we will explore the different components of computer hardware with their Functions. What is the Compute Hardware? The hardware ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "Computer Hardware | Definition, Components & Examples - Lesson",
+                    "link": "https://study.com/academy/lesson/what-is-computer-hardware-components-definition-examples.html",
+                    "snippet": "Motherboards link hardware units and their functions together to enable computer processes to take place. CPU. The central processing unit (CPU) is the brain of ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "Function of computer hardware components - AnswerKid.co.uk",
+                    "link": "https://www.answerkid.co.uk/function-of-computer-hardware-components/",
+                    "snippet": "... of them server different purposes and have different functions ... Function of computer hardware components. The ... Most computers have fans ...",
+                    "position": 5
+                  },
+                  {
+                    "title": "What are the functions of the computer hardware? | by icfix-57 service",
+                    "link": "https://medium.com/@icfixservice/what-are-the-functions-of-the-computer-hardware-73ff7e09d634",
+                    "snippet": "What are the functions of the computer hardware? · Input: Data input is the process of transferring information into a computer system.",
+                    "position": 6
+                  },
+                  {
+                    "title": "What Is Computer Hardware? - IT Glossary - SolarWinds",
+                    "link": "https://www.solarwinds.com/resources/it-glossary/computer-hardware",
+                    "snippet": "... functions such as input, output, storage, communication, processing, and more. There are two types of computer hardware: external and internal. External ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "Computer Hardware - GeeksforGeeks",
+                    "link": "https://www.geeksforgeeks.org/computer-hardware/",
+                    "snippet": "Python Functions ... Computer hardware is a physical device of computers that we can see and touch. ... Hardware describes the physical parts of the ...",
+                    "position": 8
+                  },
+                  {
+                    "title": "Functions of Hardware Components - WikiEducator",
+                    "link": "https://wikieducator.org/Caribbean_Secondary_Education_Certificate_-_Information_Technology/Functions_of_Hardware_Components_of_a_Computer_System",
+                    "snippet": "Functions of Hardware Components · Motherboard. Motherboard - It is the \"body\" or mainframe of the computer, through which all other components ...",
+                    "position": 9
+                  },
+                  {
+                    "title": "The Computer System - Peda.net",
+                    "link": "https://peda.net/id/051dda04318",
+                    "snippet": "Are physical parts/ intangible parts of a computer. ... Hardware refers to the physical, tangible computer equipment ... FUNCTIONS OF CENTRAL PROCESSING UNIT",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Functions of Hardware",
+                    "link": "https://www.youtube.com/watch?v=q3PW5iP_B1E",
+                    "snippet": "An outline of the five functions of hardware ... Parts | Exploring My Computer ... TYPES OF HARDWARE || INTERNAL HARDWARE || EXTERNAL HARDWARE || ...",
+                    "imageUrl": "https://i.ytimg.com/vi/q3PW5iP_B1E/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3noqXwKYvRiXMJ8fNE_F5ZHa9Gv8w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Christopher Kalodikis",
+                    "date": "Mar 10, 2017",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Functions Of Computer | Beginners Introduction To Functions ...",
+                    "link": "https://www.youtube.com/watch?v=Lwg2pH-x1yg",
+                    "snippet": "Functions Of Computer Beginners Introduction To Functions Of Computer कंप्यूटर के कार्य , وظائف الكمبيوتر , Fonctions de l'ordinateur ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Lwg2pH-x1yg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mpSfrFSzb1h8s0FL6wj_TNF9Secg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Oct 22, 2023",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Understanding the Basic Parts Of A Computer And Their ...",
+                    "link": "https://www.youtube.com/watch?v=9-fstUIp13o",
+                    "snippet": "COMPONENTS OF COMPUTER SYSTEM Computer hardware - Are physical parts/ intangible parts of a computer ... Functions (Main Components). 44K views · ...",
+                    "imageUrl": "https://i.ytimg.com/vi/9-fstUIp13o/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3myyB-P7m4n0ZLz3Xlw5K4bfTR28A",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "SomamBIKE",
+                    "date": "May 26, 2023",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Hardware basics explained with parts (Revised ...",
+                    "link": "https://www.youtube.com/watch?v=4XwEsI_OYOM",
+                    "snippet": "Understanding the Basic Parts Of A Computer And Their Functions (Main Components) ... of Computers ... TYPES OF HARDWARE || INTERNAL HARDWARE || ...",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3ecIelYYe5b9nHzIY5i8hv22vHsS2-bon8ycYMgkqFPB9&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Exploring My Computer",
+                    "date": "Oct 28, 2023",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science Lesson 55: The Categories of Computer ...",
+                    "link": "https://www.youtube.com/watch?v=dhe6ecxELAc",
+                    "snippet": "Computer Science Lesson 55: The Categories of Computer Hardware ... Computer parts ... Computer and Laptop Ports | Uses and Functions | Types of ...",
+                    "imageUrl": "https://i.ytimg.com/vi/dhe6ecxELAc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mmNMFXx38EamJdsVUrDXIsFou1HA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Shule Television Network",
+                    "date": "Jun 24, 2023",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "1-Minute Video | Computer Hardware Components | Learn ...",
+                    "link": "https://www.youtube.com/watch?v=-ML1JC46Ft4",
+                    "snippet": "17:08 &middot; Go to channel &middot; Understanding the Basic Parts Of A Computer And Their Functions (Main Components). SomamBIKE•44K views &middot; 5 videos ...",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVtXjiJgTxLCEavepYgf4Waafzdyi8VXDdmyg5UxqUfT1E&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Exploring My Computer",
+                    "date": "Aug 12, 2023",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Parts Identification and Functions| How Computer ...",
+                    "link": "https://www.youtube.com/watch?v=Uoa-EA0v3bE",
+                    "snippet": "Computer Parts Identification and Functions| How Computer Hardware interact with Operating System,PC - desktop computer ... How Components of a ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Uoa-EA0v3bE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mJojFjSOlJL8OBY6NJD51B0GRAQQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "ISO Training Institute",
+                    "date": "Dec 22, 2016",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Functions of a Computer - Example of How a Computer ...",
+                    "link": "https://www.youtube.com/watch?v=LpuJZqV3juo",
+                    "snippet": "Functions of a Computer - Example of How a Computer Functions - Computer ... TYPES OF HARDWARE || INTERNAL HARDWARE || EXTERNAL HARDWARE || ...",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSplY7uII9r5boPGlGU2SxX7-S-J1mJPSGt9kSISsyZEqy7&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Make It Easy Education",
+                    "date": "Aug 23, 2018",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Science Lesson 19: Types of Computer Hardware",
+                    "link": "https://www.youtube.com/watch?v=2bBKXyq4HJI",
+                    "snippet": "Computer Science Lesson 19: Types of Computer Hardware ... Parts ... KEYBOARD AND ITS FUNCTION || FUNCTIONS OF THE KEYBOARD || BASIC COMPUTER || ...",
+                    "imageUrl": "https://i.ytimg.com/vi/2bBKXyq4HJI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lBjqpylUqCDMgKCjoHZUenlJAUXA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Shule Television Network",
+                    "date": "Nov 23, 2022",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Basics of Computers | Computer Parts and Functions | Parts of ...",
+                    "link": "https://www.youtube.com/watch?v=t4nsaW-n1XE",
+                    "snippet": "In this animated video, we showed the parts of computer and their functions with pictures where anyone can get an overview of the hardware.",
+                    "imageUrl": "https://i.ytimg.com/vi/t4nsaW-n1XE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lhktxuF-a8NqFl4v_VG8xWtb1AUQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Shahriar Alam Rakib",
+                    "date": "Jun 7, 2020",
+                    "position": 10,
+                    "deltaduration": 0
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d10",
+            "status": "None"
+          },
+          {
+            "name": "Computer Hardware Troubleshooting",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "Computer Basics: Basic Troubleshooting Techniques - GCFGlobal",
+                    "link": "https://edu.gcfglobal.org/en/computerbasics/basic-troubleshooting-techniques/1/",
+                    "snippet": "Computer troubleshooting is essential to fixing technical issues ... Always check the cables: If you're having trouble with a specific piece of computer hardware ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "How to Troubleshoot Common PC Hardware Problems: Part 1",
+                    "link": "https://www.pluralsight.com/blog/tutorials/troubleshooting-hardware",
+                    "snippet": "Some of the most common PC hardware problems that need troubleshooting are: Your computer won't turn on. Your computer turns on, but still ...",
+                    "position": 2
+                  },
+                  {
+                    "title": "What are the most common hardware troubleshooting methods?",
+                    "link": "https://www.linkedin.com/advice/1/what-most-common-hardware-troubleshooting-methods",
+                    "snippet": "What is the best way to respond to computer hardware troubleshooting questions? Computer Repair. What do you do if you're a beginner in computer ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] Basic Computer Hardware Troubleshooting - Kerala Post",
+                    "link": "https://www.keralapost.gov.in/Downloads/HW%20TS%20-%20Copy.pdf",
+                    "snippet": "The following basic computer hardware troubleshooting procedures should only be performed with extreme caution and utmost care. Before working on computer ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "How to Troubleshoot Computer Hardware Issues Effectively - LinkedIn",
+                    "link": "https://www.linkedin.com/advice/0/what-some-effective-strategies-troubleshooting",
+                    "snippet": "Computer Hardware. What is the best way to respond to computer hardware troubleshooting questions? Computer Repair. What do you do if you're a ...",
+                    "position": 5
+                  },
+                  {
+                    "title": "How to Troubleshoot Any Computer Hardware Issue - LinkedIn",
+                    "link": "https://www.linkedin.com/advice/0/youre-troubleshooting-computer-hardware-issue-g8ssf",
+                    "snippet": "You're troubleshooting a computer hardware issue. How can you solve it quickly and efficiently? · 1 Identify the symptoms · 2 Check the basics · 3 ...",
+                    "position": 6
+                  },
+                  {
+                    "title": "How to Troubleshoot Hardware Components Before Installation",
+                    "link": "https://www.linkedin.com/advice/0/what-best-way-troubleshoot-hardware-components",
+                    "snippet": "... computer system and ensure a smooth and satisfying performance. Furthermore, troubleshooting hardware components can also help you prepare ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "Step-by-Step Guide to Troubleshooting Computer Hardware Problems",
+                    "link": "https://ticktocktech.com/blog/2023/06/27/step-by-step-guide-to-troubleshooting-computer-hardware-problems/",
+                    "snippet": "Step-by-Step Guide to Troubleshooting Computer Hardware Problems · Step 1: Identify the Problem · Step 2: Basic Checks and Precautions · Step 3: ...",
+                    "position": 8
+                  },
+                  {
+                    "title": "Safety Tips for Troubleshooting Computer Hardware - LinkedIn",
+                    "link": "https://www.linkedin.com/advice/0/what-most-important-safety-precautions-hqo8c",
+                    "snippet": "What are the most important safety precautions to take when troubleshooting computer hardware? ; 1. Wear appropriate gear ; 2. Disconnect power ...",
+                    "position": 9
+                  },
+                  {
+                    "title": "Hardware Troubleshooting Tools - Pearson IT Certification",
+                    "link": "https://www.pearsonitcertification.com/articles/article.aspx?p=347825&seqNum=3",
+                    "snippet": "A number of test instruments can help you isolate computer hardware problems. One of the most basic pieces of electronic troubleshooting ...",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Troubleshooting Common Hardware Problems - YouTube",
+                    "link": "https://www.youtube.com/watch?v=fCoXWfBATKA",
+                    "snippet": "Troubleshooting Common Hardware Problems - CompTIA A+ 220-802: 4.2 ... Computer Basics: Hardware. CTE Skills.com•2.4 ... Troubleshoot A Dead ...",
+                    "imageUrl": "https://i.ytimg.com/vi/fCoXWfBATKA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kPjsOjoA6bwR0E7fpnfUfx48fNYw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Professor Messer",
+                    "date": "May 26, 2013",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Troubleshooting Common Hardware Problems - 5.2 - YouTube",
+                    "link": "https://www.youtube.com/watch?v=L2E7vpj3Iq8",
+                    "snippet": "... troubleshooting hardware issues. In this video, you'll learn how to troubleshoot common hardware problems such as startup errors, Windows ...",
+                    "imageUrl": "https://i.ytimg.com/vi/L2E7vpj3Iq8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3katpjW0ngu8LLHcYuyY-dxcIjDeA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Professor Messer",
+                    "date": "Jun 6, 2022",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Level 2 Hardware Lesson 21 - YouTube",
+                    "link": "https://www.youtube.com/watch?v=GHRVfWATlNc",
+                    "snippet": "Level 2 Hardware Lesson 21: Basic Hardware Troubleshooting. 585 views · 2 years ago ...more. Computer Applications Technology. 5.02K.",
+                    "imageUrl": "https://i.ytimg.com/vi/GHRVfWATlNc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nS-7MaPf-ibfCmoOEMuV6uNayqPQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Computer Applications Technology",
+                    "date": "Sep 8, 2021",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Hardware Problems - YouTube",
+                    "link": "https://www.youtube.com/watch?v=JRy2V9bJqqE",
+                    "snippet": "Testing all the components and finally finding the root of ... Computer Hardware Problems. 5.3K views · 5 ... Top 30 Desktop PC Troubleshooting ...",
+                    "imageUrl": "https://i.ytimg.com/vi/JRy2V9bJqqE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lUCeJ3DurK3LxP7xjH995WWiLVeA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Titus Tech Talk",
+                    "date": "Sep 24, 2023",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "10 Computer Hardware Problems with Solution ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=GNKEV1i-Ccw",
+                    "snippet": "10 Computer Hardware Problems with Solution. Become Troubleshooting Expert. In this video, we have covered 10 computer problems that anyone ...",
+                    "imageUrl": "https://i.ytimg.com/vi/GNKEV1i-Ccw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k20Lel-RXugg4WnIEZsVyz1m3HHA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Complete Technology",
+                    "date": "May 2, 2022",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Hardware Repair - YouTube",
+                    "link": "https://www.youtube.com/watch?v=IX5SGXQ_Fss",
+                    "snippet": "... hardware problems with their desktop computer ... Parts Basic Troubleshooting Methodology Your ... Troubleshooting a PC that REFUSES to POST!",
+                    "imageUrl": "https://i.ytimg.com/vi/IX5SGXQ_Fss/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lzxL77bBapQLtmJQgRWhRuqRxF8Q",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Eli the Computer Guy",
+                    "date": "Dec 17, 2010",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Let's Play PC Building Simulator Gameplay Ep 3 - YouTube",
+                    "link": "https://www.youtube.com/watch?v=a19PbymD2W4",
+                    "snippet": "In today's episode of PC Building Simulator, we continue troubleshooting computer hardware problems. I've always found it fun trying to ...",
+                    "imageUrl": "https://i.ytimg.com/vi/a19PbymD2W4/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kcX_dppA3C3Bf0ja_TPt3TlbpR3A",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MacGhriogair",
+                    "date": "Apr 15, 2018",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Hardware Troubleshooting - YouTube",
+                    "link": "https://www.youtube.com/watch?v=Jh4Fu2AbJ7M",
+                    "snippet": "Top 30 Desktop PC Troubleshooting ... CompTIA A+ Full Course for Beginners - Module 3 - Troubleshooting PC Hardware ... How does Computer ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Jh4Fu2AbJ7M/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nwbdHD03-lpxOyjEc23os4fzWFsQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MrBrownCS",
+                    "date": "Dec 20, 2021",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "10 Basic Computer Troubleshooting Techniques (2022)",
+                    "link": "https://www.youtube.com/watch?v=BAmIvIxjAyQ",
+                    "snippet": "... computer troubleshooting including: 1. Basic Troubleshooting Concepts 2. Hardware Information Gathering 3. Software Information Gathering 4 ...",
+                    "imageUrl": "https://i.ytimg.com/vi/BAmIvIxjAyQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kxef2pI0IVrKQub0eJgGVrg0gYEg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Craig Chamberlin",
+                    "date": "Jun 13, 2012",
+                    "position": 10,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "CompTIA A+ Full Course for Beginners - Module 3 - YouTube",
+                    "link": "https://www.youtube.com/watch?v=VHMEDQKvOpM",
+                    "snippet": "... of the Full A+ Course which is Troubleshooting PC Hardware. ... of age) hoping to transition to a career in computers. ... computer background. I ...",
+                    "imageUrl": "https://i.ytimg.com/vi/VHMEDQKvOpM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kYF5xTNldm2S3K6d9p5dSrtQgXvQ",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "BurningIceTech",
+                    "date": "Dec 18, 2022",
+                    "position": 2,
+                    "deltaduration": 1
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d11",
+            "status": "None"
+          }
+        ]
+      },
+      {
+        "name": "Computer Software",
+        "duration": 0,
+        "child": [
+          {
+            "name": "Types of Computer Software",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "The 3 types of computer software - FutureLearn",
+                    "link": "https://www.futurelearn.com/info/courses/computer-systems/0/steps/53500",
+                    "snippet": "There are different types of software that can run on a computer: system software, utility software, and application software. Let's take a closer look at them.",
+                    "position": 1
+                  },
+                  {
+                    "title": "10 Computer Software Examples (Plus Definition and FAQs) - Indeed",
+                    "link": "https://www.indeed.com/career-advice/career-development/computer-software-examples",
+                    "snippet": "10 types of computer software examples · 1. Application software · 2. System software · 3. Middleware · 4. Driver software · 5. Programming software · 6. Freeware · 7.",
+                    "position": 2
+                  },
+                  {
+                    "title": "Types of Computer Software - EDUCBA",
+                    "link": "https://www.educba.com/types-of-computer-software/",
+                    "snippet": "Types of Computer Software · 1. System Software · 2. Application Software · 3. Programming Software · 4. Enterprise Software · 5. Utility Software · 6 ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "What is Software? Definition, Types, Examples, and More",
+                    "link": "https://www.geeksforgeeks.org/software-and-its-types/",
+                    "snippet": "Software is basically a set of instructions or commands that tell a computer what to do. There are two types of software: system software ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "Computer Software | Definition, Types & Examples - Lesson",
+                    "link": "https://study.com/learn/lesson/computer-software-examples-types.html",
+                    "snippet": "Learn about computer software, including examples and different types of computer software. See how system software differs from application software.",
+                    "position": 5
+                  },
+                  {
+                    "title": "What are the 3 Types of Computer Software? - TatvaSoft Blog",
+                    "link": "https://www.tatvasoft.com/outsourcing/2021/11/what-are-the-3-types-of-computer-software.html",
+                    "snippet": "Different Types of Computer Software – A Complete Guide.",
+                    "position": 6
+                  },
+                  {
+                    "title": "Different Types of Software with Examples - A Complete Guide",
+                    "link": "https://squareboat.com/blog/different-types-of-software-with-examples",
+                    "snippet": "Different Types of Software. As mentioned above, there are two major software types in computer systems – System Software and Application ...",
+                    "position": 7
+                  },
+                  {
+                    "title": "Software - Wikipedia",
+                    "link": "https://en.wikipedia.org/wiki/Software",
+                    "snippet": "There are many different types of application software because the range of tasks that can be performed with a modern computer is so large—see list of software.",
+                    "position": 8
+                  },
+                  {
+                    "title": "Software | Definition, Types, & Facts | Britannica",
+                    "link": "https://www.britannica.com/technology/software",
+                    "snippet": "The two main types of software are system software and application software ... Computer History Museum - Timeline of Computer History - Software ...",
+                    "position": 9
+                  },
+                  {
+                    "title": "Computer Software Examples (With 9 Types of Software) - Indeed",
+                    "link": "https://in.indeed.com/career-advice/career-development/computer-software-examples",
+                    "snippet": "9 Prominent Types Of Computer Software · 1. Application software · 2. System software · 3. Programming software · 4. Driver software · 5. Freeware · 6 ...",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Types Of Computer Software - YouTube",
+                    "link": "https://www.youtube.com/watch?v=vghgtcmTTLQ",
+                    "snippet": "Types Of Computer Software | System Software, Application Software, Operating Software &middot; Comments2.",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIl5dcozSWfaTG-9J7MsOxbJvFzWiQEtoHY4uE0EWHTNaA&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIM Technovate",
+                    "date": "Apr 14, 2023",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "COMPUTER BASICS - TYPES OF SOFTWARE - YouTube",
+                    "link": "https://www.youtube.com/watch?v=BTB86HeZVwk",
+                    "snippet": "TYPES OF SOFTWARE || APPLICATION SOFTWARE || SYSTEM SOFTWARE || UTILITY SOFTWARE || COMPUTER BASICS.",
+                    "imageUrl": "https://i.ytimg.com/vi/BTB86HeZVwk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kdL4RkkggcilSuMI9y5sXjB2LrOw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Make It Easy Education",
+                    "date": "Sep 23, 2020",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What are the computer softwares and their types ... - YouTube",
+                    "link": "https://www.youtube.com/watch?v=Fd-lp3e9LJ4",
+                    "snippet": "Comments149 &middot; Computer and System Software | Types of Computer and System Software &middot; Introduction To Computer System &middot; Differences between System ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Fd-lp3e9LJ4/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l8OuvsjHyYHuaC49eWYGPij5FdcA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Nasir - The Explainer",
+                    "date": "Nov 22, 2021",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types of Computer Software - YouTube",
+                    "link": "https://www.youtube.com/watch?v=gJf6AnD9RJY",
+                    "snippet": "... Computer Programs and Software. 5-Minute ... TYPES OF SOFTWARE || APPLICATION SOFTWARE || SYSTEM SOFTWARE || UTILITY SOFTWARE || COMPUTER BASICS.",
+                    "imageUrl": "https://i.ytimg.com/vi/gJf6AnD9RJY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kex5Omz9Y8CMApo2f4p1savNPeSg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Next Education",
+                    "date": "Apr 25, 2015",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types of Computer and System Software - YouTube",
+                    "link": "https://www.youtube.com/watch?v=T-_hQSYiWJA",
+                    "snippet": "Introduction Computer Software Types of Computer Software Types of System Software Application software Spreadsheet Database Software After ...",
+                    "imageUrl": "https://i.ytimg.com/vi/T-_hQSYiWJA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nvQiqUwtWwMDKs64IdjK080Lf8Uw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Computer Education For all",
+                    "date": "Aug 25, 2017",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What is Software? full explanation | Types of Computer Software",
+                    "link": "https://www.youtube.com/watch?v=JwhnU47brtc",
+                    "snippet": "What is Software? full explanation | Types of Computer Software. 880K views · 2 years ago #computersoftware #software #typesofsoftware ...more ...",
+                    "imageUrl": "https://i.ytimg.com/vi/JwhnU47brtc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kb6JV_XkjjSFLqOTryiR8eGtV11w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "KeyPoints Education",
+                    "date": "Oct 2, 2021",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types of Computer Software | (Hindi) - YouTube",
+                    "link": "https://www.youtube.com/watch?v=Kxg6NAfjkyI",
+                    "snippet": "What is Software? Full Explanation | Types of Computer Software | (Hindi). 8.1K views · 11 months ago #softwares #video #computersoftware",
+                    "imageUrl": "https://i.ytimg.com/vi/Kxg6NAfjkyI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kaKdkMU2ijZuIZ21_YwTnMBW-8HQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Student Notes",
+                    "date": "May 10, 2023",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types of Application Software - YouTube",
+                    "link": "https://www.youtube.com/watch?v=K3tuyA6Et5A",
+                    "snippet": "Comments3 ; WHAT IS SOFTWARE || TYPES OF SOFTWARE. Sundeep Saradhi Kanthety &middot; 329K views ; introduction to computer applications. Muchiri Nyaga ...",
+                    "imageUrl": "https://i.ytimg.com/vi/K3tuyA6Et5A/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kZmWoalYBiMukrjxOfYK5xciRQGg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Radixweb",
+                    "date": "Mar 21, 2022",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types of Computer Software - YouTube",
+                    "link": "https://www.youtube.com/watch?v=T10KiMX-t8o",
+                    "snippet": "https://www.gcreddy.com/ Types of Computer Software I. Functionality Point of View: 1. System Software - Operating systems, device drivers, ...",
+                    "imageUrl": "https://i.ytimg.com/vi/T10KiMX-t8o/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nz33CaBKJlApMkZu_kwzeLKbhpig",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "G C Reddy Software Testing",
+                    "date": "Feb 21, 2022",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What is Software | Types of Software | CBSE Class XI - YouTube",
+                    "link": "https://www.youtube.com/watch?v=jPjimIJ-Mr8",
+                    "snippet": "What is Software | Types of Software | CBSE Class XI. 411K views · 1 ... full explanation | Types of Computer Software. KeyPoints Education ...",
+                    "imageUrl": "https://i.ytimg.com/vi/jPjimIJ-Mr8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lWY2ROIFfOWx7b7-nxXztnhVKQiw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Gate Smashers",
+                    "date": "Jul 23, 2022",
+                    "position": 10,
+                    "deltaduration": 0
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d12",
+            "status": "None"
+          },
+          {
+            "name": "Functions of Computer Software",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "What are the five major categories of computers in terms of size?",
+                    "link": "https://www.quora.com/What-are-the-five-major-categories-of-computers-in-terms-of-size",
+                    "snippet": "What are the two major categories of computer software? ... functions of ... Some types of microcomputer are —>. Desktop computer or Personal ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "Programming Links | PDF | Areas Of Computer Science | Applied ...",
+                    "link": "https://ru.scribd.com/doc/287658384/Programming-Links",
+                    "snippet": "System Software Internals Advanced. Krishna Prasad. Hw3 Growth of Functions. Hw3 Growth of Functions.",
+                    "position": 2
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "What Is System Software ? | Functions And Types Of System ...",
+                    "link": "https://www.youtube.com/watch?v=Ts8hvn198mM",
+                    "snippet": "What is system software ?. Functions And Types Of System Software. The system software is a software used by the computer system for its ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Ts8hvn198mM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mRyFFJ03XlzTnIVrbiQO0KQmpAqw",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Nov 12, 2020",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Functions Of Computer | Beginners Introduction To Functions ...",
+                    "link": "https://www.youtube.com/watch?v=Lwg2pH-x1yg",
+                    "snippet": "... functions of a computer allow it to interact with the user in terms of accepting data, processing the data with the help of suitable software or ...",
+                    "imageUrl": "https://i.ytimg.com/vi/Lwg2pH-x1yg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mpSfrFSzb1h8s0FL6wj_TNF9Secg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Oct 22, 2023",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "COMPUTER SOFTWARE and its types | Guide to ...",
+                    "link": "https://www.youtube.com/watch?v=H1Vzk-x_2eE",
+                    "snippet": "Go to channel &middot; What Is System Software ? | Functions And Types Of System Software. Learn Computer Science•81K views &middot; 9:21. Go to channel ...",
+                    "imageUrl": "https://i.ytimg.com/vi/H1Vzk-x_2eE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3m5pEbjMNxpqlF_AFh_uwdMAfSexQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "SAHANI Sir",
+                    "date": "Jul 16, 2023",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "What is Software?",
+                    "link": "https://www.youtube.com/watch?v=KZ8fFRowFmM",
+                    "snippet": "... of programs for controlling and managing computer hardware and software. ... | Functions And Types Of System Software ... Why Do Computers Use 1s ...",
+                    "imageUrl": "https://i.ytimg.com/vi/KZ8fFRowFmM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lqhpbxefBKQF3H7pF8Cuoiyz7U-Q",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "GreggU",
+                    "date": "Jan 13, 2020",
+                    "position": 4,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Introduction To Operating System | OS Functions , Features ...",
+                    "link": "https://www.youtube.com/watch?v=dpnYzKATBKA",
+                    "snippet": "Understanding the Basic Parts Of A Computer And Their Functions (Main Components) ... Why Do Computers ... | Functions And Types Of System Software.",
+                    "imageUrl": "https://i.ytimg.com/vi/dpnYzKATBKA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kitI-LyMBG6DkMB0FjodVOBkLsXQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Learn Computer Science",
+                    "date": "Feb 20, 2023",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Software in detail: Types & Functions: System ...",
+                    "link": "https://www.youtube.com/watch?v=ODnhVFftAXM",
+                    "snippet": "Computer Software in detail: Types & Functions: System software & its types, Application software &middot; Comments.",
+                    "imageUrl": "https://i.ytimg.com/vi/ODnhVFftAXM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lMSABmWMThPQUXzkhD9ck5iQMC6w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "SPTcode",
+                    "date": "Jun 25, 2021",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Software and types | Introduction to Computer Software ...",
+                    "link": "https://www.youtube.com/watch?v=CaiCFUcYcFI",
+                    "snippet": "... Computer Software, Explanation of different Software ... Computers ... Understanding the Basic Parts Of A Computer And Their Functions (Main ...",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5zFbxE8-O5mzpGk4a2hgrp8YWapwRjhhwLya31ni70iUg&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Exploring My Computer",
+                    "date": "Oct 21, 2023",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Types Of Computer Software | System Software, Application ...",
+                    "link": "https://www.youtube.com/watch?v=vghgtcmTTLQ",
+                    "snippet": "computersoftware ... Of Computer Software | System Software, Application Software, Operating Software Best Computer Software. ... Functions. Code ...",
+                    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIl5dcozSWfaTG-9J7MsOxbJvFzWiQEtoHY4uE0EWHTNaA&s",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MIM Technovate",
+                    "date": "Apr 14, 2023",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Computer Software in detail, types of software, and their ...",
+                    "link": "https://www.youtube.com/watch?v=6s51IUxJbEY",
+                    "snippet": "Computer Software in detail, types of software, and their functions, ShareSkills: Computer Basic Education and Programming educational ...",
+                    "imageUrl": "https://i.ytimg.com/vi/6s51IUxJbEY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mOLMSk-K51LZ5qWfTrc9rgRa2tUg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "SPTcode",
+                    "date": "Jul 19, 2021",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "TYPES OF SOFTWARE | Application Software | System Software",
+                    "link": "https://www.youtube.com/watch?v=ppnQ9RKrw38",
+                    "snippet": "Computer software refers to a collection of programs, data, and instructions that tell a computer how to perform specific tasks or functions ...",
+                    "imageUrl": "https://i.ytimg.com/vi/ppnQ9RKrw38/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kyBI7qTTdOZ15tk-28z_CYNAL6Ag",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "R3 Media Solutions",
+                    "date": "Sep 2, 2023",
+                    "position": 10,
+                    "deltaduration": 0
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d13",
+            "status": "None"
+          },
+          {
+            "name": "Computer Software Troubleshooting",
+            "duration": 0,
+            "child": [
+              {
+                "text": [
+                  {
+                    "title": "Eleven Tips for Troubleshooting Software | Articles and How-tos",
+                    "link": "https://www.techsoup.org/support/articles-and-how-tos/eleven-tips-for-troubleshooting-software",
+                    "snippet": "Before you call tech support, check out our step-by-step guide to troubleshooting software ... computer, the more RAM it uses. This can be ... computers, try ...",
+                    "position": 1
+                  },
+                  {
+                    "title": "How to Troubleshoot and Fix Software Issues in Computers - LinkedIn",
+                    "link": "https://www.linkedin.com/advice/3/what-some-best-practices-tips-troubleshooting-fixing",
+                    "snippet": "Computer Repair. What are some of the best practices and tips for troubleshooting and fixing software issues in computers? Powered by AI and ...",
+                    "position": 2
+                  },
+                  {
+                    "title": "How do you troubleshoot software and hardware issues online?",
+                    "link": "https://www.linkedin.com/advice/0/how-do-you-troubleshoot-software-hardware-issues",
+                    "snippet": "Troubleshooting most software and hardware issues online can often be resolved with some basic steps. Restarting the device or system can clear ...",
+                    "position": 3
+                  },
+                  {
+                    "title": "Software Troubleshooting - What Is It And Does It Entail?",
+                    "link": "https://ebcallcenter.com/tech-support/software-troubleshooting-what-is-it-and-does-it-entail",
+                    "snippet": "Computer troubleshooting can either be done to the hardware or software. Hardware troubleshooting is carried out on an unresponsive keyboard or ...",
+                    "position": 4
+                  },
+                  {
+                    "title": "Computer Troubleshooting: Quick & Easy Home Fixes",
+                    "link": "https://computerdaddy.com.au/computer-troubleshooting-for-home-users/",
+                    "snippet": "Here are some typical do-it-yourself troubleshooting methods for addressing hardware and software issues: Restarting the computer; Researching ...",
+                    "position": 5
+                  },
+                  {
+                    "title": "Software Troubleshooting Tips - LinkedIn",
+                    "link": "https://www.linkedin.com/pulse/software-troubleshooting-tips-edwin-kimani",
+                    "snippet": "Software Troubleshooting Tips When troubleshooting ... Software Troubleshooting Tips ... What is the best way to update software on a computer for ...",
+                    "position": 6
+                  },
+                  {
+                    "title": "Computer Troubleshooting Techniques for Field Service Engineers",
+                    "link": "https://www.linkedin.com/advice/1/what-some-efficient-effective-computer-uf7kf",
+                    "snippet": "Learn some of the best practices and tips for computer troubleshooting in hardware, software, network, and customer service areas.",
+                    "position": 7
+                  },
+                  {
+                    "title": "Ultimate Computer Troubleshooting Guide: Tips & Tricks",
+                    "link": "https://geeks2you.com/the-ultimate-guide-to-computer-troubleshooting-tips-and-tricks/",
+                    "snippet": "Ultimate Guide to Computer Troubleshooting ... If your computer started experiencing issues after installing new software ... computers experiencing ...",
+                    "position": 8
+                  },
+                  {
+                    "title": "Basic Software Troubleshooting - Computer Hope",
+                    "link": "https://www.computerhope.com/issues/chsoft.htm",
+                    "snippet": "Basic troubleshooting steps that can be performed for computer software including programs and utilities.",
+                    "position": 9
+                  },
+                  {
+                    "title": "Lesson 1 Troubleshooting Computer - Studocu",
+                    "link": "https://www.studocu.com/ph/document/university-of-southern-mindanao/computer-science/lesson-1-troubleshooting-computer/30557345",
+                    "snippet": "The following tools will assist you in troubleshooting hardware and software issues. • ActiveX - Troubleshoot ActiveX issues. • Boot - T ...",
+                    "position": 10
+                  }
+                ],
+                "video": [
+                  {
+                    "title": "Software Troubleshooting - YouTube",
+                    "link": "https://www.youtube.com/watch?v=wnWdgV7MZsU",
+                    "snippet": "Video #11 of LO2 (Understand computer software). ... Software Troubleshooting. 4K views · 2 years ... Top 30 Desktop PC Troubleshooting Problems ...",
+                    "imageUrl": "https://i.ytimg.com/vi/wnWdgV7MZsU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mKgUxXXLR6VVWNVfkxzo4OHdUiIQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "MrBrownCS",
+                    "date": "Dec 12, 2021",
+                    "position": 1,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "10 Basic Computer Troubleshooting Techniques (2022)",
+                    "link": "https://www.youtube.com/watch?v=BAmIvIxjAyQ",
+                    "snippet": "... computer troubleshooting including: 1. Basic Troubleshooting Concepts 2. Hardware Information Gathering 3. Software Information Gathering 4 ...",
+                    "imageUrl": "https://i.ytimg.com/vi/BAmIvIxjAyQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kxef2pI0IVrKQub0eJgGVrg0gYEg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Craig Chamberlin",
+                    "date": "Jun 13, 2012",
+                    "position": 2,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Intro to Software Troubleshooting - YouTube",
+                    "link": "https://www.youtube.com/watch?v=csyOtzpmhdk",
+                    "snippet": "Basic software troubleshooting steps. - Restart your computer - Repair disk permissions - Is it a file problem? - Is it a User problem?",
+                    "imageUrl": "https://i.ytimg.com/vi/csyOtzpmhdk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lYbFiKoTe-g4cSMIzJV9eepAULiA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "mac fusion",
+                    "date": "Nov 22, 2009",
+                    "position": 3,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "How to Troubleshoot Common Hardware & Software Problems?",
+                    "link": "https://www.youtube.com/watch?v=e96GahOYK84",
+                    "snippet": "How to Disable the Lock Screen on Windows Computer (Complete Guide) ... Top 30 Desktop PC Troubleshooting Problems with Solutions ... HARDWARE VS ...",
+                    "imageUrl": "https://i.ytimg.com/vi/e96GahOYK84/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kjmc5w-gnuW1Lksc6oxR0-WE1u-w",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "IntoGuide",
+                    "date": "Feb 1, 2017",
+                    "position": 5,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Level 2 Hardware Lesson 21 - YouTube",
+                    "link": "https://www.youtube.com/watch?v=GHRVfWATlNc",
+                    "snippet": "Hardware, troubleshooting, error, problem, repair, driver ... Computer Applications Technology•561 views &middot; 7 ... software lyf. Sasidar Reddy ...",
+                    "imageUrl": "https://i.ytimg.com/vi/GHRVfWATlNc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nS-7MaPf-ibfCmoOEMuV6uNayqPQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Computer Applications Technology",
+                    "date": "Sep 8, 2021",
+                    "position": 6,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Troubleshooting Techniques Troubleshooting a computer",
+                    "link": "https://www.youtube.com/watch?v=gpyqvzOF248",
+                    "snippet": "... troubleshooting other hardware, but the software layer in a computer adds complexity. [tweet \"What troubleshooting techniques should you use ...",
+                    "imageUrl": "https://i.ytimg.com/vi/gpyqvzOF248/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k1SI1E70e5pq9ISINOMJgs0BEkBA",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Paul Alan Clifford",
+                    "date": "Oct 2, 2015",
+                    "position": 7,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Advanced Troubleshooting Windows 7/10 Operating System",
+                    "link": "https://www.youtube.com/watch?v=1K152IaRs3s",
+                    "snippet": "... Troubleshooting Software issues last known good configuration Rate Comment Subscribe Share Thank You. ... PC ... Computer Hardware & Software Lesson ...",
+                    "imageUrl": "https://i.ytimg.com/vi/1K152IaRs3s/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nnxw7sTJAv2BOoMKhNB9_oU9yizg",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Kevtech IT Support",
+                    "date": "Mar 20, 2019",
+                    "position": 8,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Troubleshooting Software Problems - Tynker - YouTube",
+                    "link": "https://www.youtube.com/watch?v=A96TaITEPwc",
+                    "snippet": "Troubleshooting Software Problems | All About Computers | Tynker ; How Does Computer Memory Work? &middot; 3.7K views ; What Is A Flowchart? &middot; 33K views.",
+                    "imageUrl": "https://i.ytimg.com/vi/A96TaITEPwc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nQJQJtQROPOPlphaXmGNMU5fCTAQ",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Tynker",
+                    "date": "Apr 19, 2023",
+                    "position": 9,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "How to fix ANY Windows problem with the built-in repair tool",
+                    "link": "https://www.youtube.com/watch?v=i-QHtJGAXgI",
+                    "snippet": "know that the Windows built-in troubleshooting repair tool has EVERYTHING you need to get your PC back up and running ... PC without any Software.",
+                    "imageUrl": "https://i.ytimg.com/vi/i-QHtJGAXgI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kUsUG9VNql9qigH-E-txh4QTTH-g",
+                    "duration": 0,
+                    "source": "YouTube",
+                    "channel": "Ask Your Computer Guy",
+                    "date": "Aug 7, 2023",
+                    "position": 10,
+                    "deltaduration": 0
+                  },
+                  {
+                    "title": "Using Windows Tools for Troubleshooting - YouTube",
+                    "link": "https://www.youtube.com/watch?v=BVBm-mO6cyQ",
+                    "snippet": "... programs, but not documents/videos etc ... Computer software and hardware maintenance ... Top 30 Desktop PC Troubleshooting Problems with ...",
+                    "imageUrl": "https://i.ytimg.com/vi/BVBm-mO6cyQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n_6lrD_8VKdEgtA7oKfrTv0LOu_g",
+                    "duration": 1,
+                    "source": "YouTube",
+                    "channel": "Eli the Computer Guy",
+                    "date": "Feb 17, 2011",
+                    "position": 4,
+                    "deltaduration": 1
+                  }
+                ]
+              }
+            ],
+            "id": "661de609a58f2d87bb667d14",
+            "status": "None"
+          }
+        ]
+      }
+    ],
+    "userId": 11,
+    "id_course": "Computer_Science_for_Beginners_20240416024418525",
+    "level": "1",
+    "language": "en",
+    "period_time": "1",
+    "period_unit": "days",
+    "daysPweek": "1",
+    "hrsPday": "5"
+  }
+}
