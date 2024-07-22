@@ -1,0 +1,576 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam} % Sử dụng tiếng việt
+\usepackage[left=2cm,right=1.5cm,top=2cm,bottom=2cm]{geometry} 
+\usepackage{graphicx} % Cho phép chèn hỉnh ảnh
+\usepackage{amsthm} % Cho phép thêm các môi trường định nghĩa
+\usepackage{latexsym} % Các kí hiệu toán học
+\usepackage{amsmath} % Hỗ trợ một số biểu thức toán học
+\usepackage{amssymb} % Bổ sung thêm kí hiệu về toán học
+\usepackage{amsbsy} % Hỗ trợ các kí hiệu in đậm
+\usepackage{esint}
+\usepackage{tasks}
+\usepackage{array} % Tạo bảng array
+\usepackage{enumitem} % Cho phép thay đổi kí hiệu của list
+\usepackage[usenames,dvipsnames]{xcolor} % usenames \Rightarrow màu có sẵn trong gói xcolor; dvipsnames \Rightarrow màu mở rộng
+\usepackage[many]{tcolorbox} % Tạo các hộp với nhiều loại màu sắc, đường viền, nền, văn bản bên trong hộp.
+\usepackage{subfiles} % Chèn các file nhỏ, giúp chia các chapter ra nhiều file hơn
+\usepackage{titlesec} % Giúp chỉnh sửa các tiêu đề, đề mục như chương, phần,..
+\usepackage{chngcntr} % Dùng để thiết lập lại cách đánh số caption,..
+\usepackage{pdflscape} % Đưa các bảng có kích thước đặt theo chiều ngang giấy
+\usepackage{afterpage}
+\usepackage{capt-of} % Cho phép sử dụng caption lớn đối với landscape page
+\usepackage{multirow} % Merge cells
+\usepackage{fancyhdr} % Cho phép tùy biến header và footer
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{tcolorbox} % Vẽ bảng
+%\usepackage[boxruled, lined]{algorithm2e} % Thêm mã giả
+\usepackage{bm}
+\usepackage{times}  % Đổi font
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\arabic{subsection}}
+\renewcommand{\baselinestretch}{1.3}
+%=== Gõ toán nhanh
+
+% \diff[<order>]{<var>}{<func>}
+\newcommand{\diff}[3][]{\ensuremath{\frac{d^{#1}}{d {#2}^{#1}}}{#3}}
+% \ci[<func>][<var>]
+\newcommand{\ci}[2]{\ensuremath{\displaystyle\int{#1}d{#2}}}
+% \cfi[][<func>][<var>]
+\newcommand{\cfi}[3]{\ensuremath{\displaystyle\int\dfrac{{#1}d{#3}}{#2}}}
+% \cint[<start>][<end>][<func>][<var>]
+\newcommand{\cint}[4]{\ensuremath{\displaystyle\int\limits_{#1}^{#2}}{#3}d{#4}}
+% \ciint[<domain>][<func>][<var1>][<var2>]
+\newcommand{\ciint}[4]{\ensuremath{\displaystyle\iint\limits_{#1}{#2}d{#3}d{#4}}}
+% \ciint[<domain>][<func>][<var1>][<var2>][<var3>]
+\newcommand{\ciiint}[5]{\ensuremath{\displaystyle\iiint\limits_{#1}{#2}d{#3}d{#4}d{#5}}}
+% \arccot{<func>}
+\newcommand{\arccot}[1][]{\ensuremath{\operatorname{arccot}{#1}}}
+% \clim{<var>}{<num>}{<func>}
+\newcommand{\clim}[3]{\ensuremath{\displaystyle\lim\limits_{{#1}\rightarrow{#2}}{#3}}}
+% \diffi[<order>]{<var>}{<func>}
+\newcommand{\diffi}[3][]{\ensuremath{\frac{d^{#1} {#3}}{d {#2}^{#1}}}}
+% \pdiff[<order>]{<var>}{<func>}
+\newcommand{\pdiff}[3][]{\ensuremath{\frac{\partial^{#1}}{\partial {#2}^{#1}}}{#3}}
+% \pdiffi[<order>]{<var>}{<func>}
+\newcommand{\pdiffi}[3][]{\ensuremath{\frac{\partial^{#1} {#3}}{\partial {#2}^{#1}}}}
+% \C{<up>}{<down>}
+\newcommand{\C}[2]{\ensuremath{\textbf{C}^{#1}_{#2}}}
+% sqcases environment
+\makeatletter
+\def\env@sqcases{%
+  \let\@ifnextchar\new@ifnextchar
+  \left\lbrack
+  \def\arraystretch{1.2}%
+  \array{@{}l@{\quad}l@{}}%
+}
+\makeatother
+
+% ========================== Định nghĩa các hộp
+\newcommand{\cmss}{\usefont{T5}{cmss}{bx}{n}} % Định nghĩa font mới \cmss
+\theoremstyle{theorem}
+
+
+\newtheorem{cau}{Câu}
+\tcolorboxenvironment{cau}{
+			  boxrule=0pt,
+			  boxsep=0pt,
+			  colback={White!88!Dandelion},
+			  enhanced jigsaw, 
+			  borderline ={1pt}{0pt}{Dandelion},
+			  sharp corners,
+			  before skip=10pt,
+			  after skip=10pt,
+                left=10pt,
+                right=8pt,
+			  breakable,
+}
+
+\newtheorem{prove}{Chứng minh}
+\tcolorboxenvironment{prove}{
+  boxrule=0pt,
+  boxsep=0pt,
+  blanker,
+  borderline west={2pt}{0pt}{Red},
+  before skip=10pt,
+  after skip=10pt,
+  sharp corners,
+  left=5pt,
+  right=5pt,
+  breakable,
+  fontupper=\normalfont,
+}
+
+\newtheorem{vd}{Ví dụ}
+\tcolorboxenvironment{vd}{
+			  boxrule=0pt,
+			  boxsep=0pt,
+			  colback={White!90!Dandelion},
+			  enhanced jigsaw, 
+			  borderline west={2pt}{0pt}{Dandelion},
+			  sharp corners,
+			  before skip=10pt,
+			  after skip=10pt,
+			  breakable,
+}
+
+\newtheorem{tc}{Tính chất}
+\tcolorboxenvironment{tc}{
+			  boxrule=0pt,
+			  boxsep=0pt,
+			  colback={White!93!Violet},
+			  enhanced jigsaw, 
+			  borderline west={2pt}{0pt}{Violet},
+			  sharp corners,
+			  before skip=10pt,
+			  after skip=10pt,
+			  breakable,
+}
+
+\newtheorem{dl}{Định lý}
+\tcolorboxenvironment{dl}{
+		  boxrule=0pt,
+		  boxsep=0pt,
+		  blanker,
+		  borderline west={2pt}{0pt}{Red},
+		  before skip=10pt,
+		  after skip=10pt,
+		  sharp corners,
+		  left=12pt,
+		  right=12pt,
+		  breakable,
+		}
+
+\newtheorem{cy}{Lưu ý}
+\tcolorboxenvironment{cy}{
+		  boxrule=0pt,
+		  boxsep=0pt,
+		  blanker,
+		  borderline west={2pt}{0pt}{Green},
+		  before skip=10pt,
+		  after skip=10pt,
+		  left=12pt,
+		  right=12pt,
+		  breakable,
+		}
+% =========================
+
+% ========================= Vẽ hình
+\usepackage{tikz} 
+\usepackage{tikz-3dplot}
+\usetikzlibrary{calc}
+\usepackage{tkz-tab}
+
+% =========================
+
+
+% ========================= Chèn logo nền 
+\usepackage{draftwatermark}
+\usepackage{transparent}
+\SetWatermarkText{\transparent{0.1}\includegraphics{Owl.jpg}}
+\SetWatermarkScale{0.5}
+\SetWatermarkAngle{0}
+% =========================
+
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{
+    \color{bleudefrance}
+    \textbf{Hỗ trợ sinh viên Bách Khoa}\\
+    \textbf{CLB Hỗ Trợ Học Tập}
+}
+\fancyfoot[LE,RO]{\thepage}
+%\fancyfoot[LE,LO]{\textbf{\textit{If you want to see the rainbow, you gotta put up with the rain}}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\definecolor{bleudefrance}{rgb}{0.19, 0.55, 0.91}
+\definecolor{lightblue}{rgb}{0.19, 0.65, 0.9}
+\definecolor{green}{rgb}{0, 0.7, 0.3}
+\begin{document}
+\begin{center}
+\Large{\textbf{\textcolor{red}{BÀI TẬP LUYỆN TẬP MÔN GIẢI TÍCH I}}}\\
+\large\textbf{CHƯƠNG I: PHÉP TÍNH VI PHÂN HÀM MỘT BIẾN SỐ}
+\end{center}
+\begin{center}
+    \textbf{\large Bài 1 - Giới thiệu chung (Introduction)}    
+\end{center}
+    \subsection*{||\quad Section 1 - Định nghĩa hàm số, một số khái niệm cơ bản về hàm số, hàm hợp, hàm ngược}
+
+\begin{cau}
+     Tìm $f(x)$, biết:
+
+\begin{tasks}(2)
+    \task $f\left(x+\dfrac{1}{x}\right)=x^2+\dfrac{1}{x^2}$
+    \task $f\left(\dfrac{x}{1+x}\right)=x^2$
+\end{tasks}
+\end{cau}
+
+\begin{center} 
+\textbf{[Hướng dẫn giải]} 
+\end{center}
+
+\begin{enumerate}[label = \alph*), wide, labelwidth=!, labelindent=0pt]
+    \item $f\left(x+\dfrac{1}{x}\right)=x^2+\dfrac{1}{x^2}$
+    
+    {+)~ }Đặt $x+\dfrac{1}{x}=t\Rightarrow |t|\geq 2$
+    
+    Khi đó, phương trình đã cho trở thành: $f(t)=t^2-2 ~\forall~ |t| \geq 2$
+    
+    {+)~ }Kết luận: $f(x)=x^2-2  ~\forall~ |x| \geq 2$
+
+    \item $f\left(\dfrac{x}{1+x}\right)=x^2$
+    
+    {+)~ }Đặt $\dfrac{x}{1+x}=t\Rightarrow x=\dfrac{t}{1-t}$ với $t\not = 1$
+    
+     Khi đó, phương trình đã cho trở thành: $f(t)=\left(\dfrac{t}{1-t}\right)^2 ~\forall~ t\not =1$
+     
+     {+)~ }Kết luận: $f(x)=\left(\dfrac{x}{1-x}\right)^2 ~\forall~ x\not =1$
+\end{enumerate}
+
+\begin{cau}
+Tìm hàm ngược của hàm số:
+\begin{tasks}(3)
+    \task $y=2\arcsin x$
+    \task $y=\dfrac{1-x}{1+x}$
+    \task $y=\dfrac{1}{2}(e^x-e^{-x})$
+\end{tasks}
+\end{cau}
+
+\begin{center} 
+\textbf{[Hướng dẫn giải]} 
+\end{center}
+
+\begin{enumerate}[label = \alph*), wide, labelwidth=!, labelindent=0pt]
+    \item $y=2\arcsin x$
+    
+    {+)~ }Ta thấy: $x \in [-1,1] \Rightarrow y \in \left[-\pi,\pi\right]$
+    
+    {+)~ }Ta có: $y = 2\arcsin x \Rightarrow x=\sin \dfrac{y}{2}$
+    
+    {+)~ }Kết luận: Hàm ngược của hàm số đã cho là $f^{-1}(x)=\sin \dfrac{x}{2}$ với $ x\in \left[-\pi,\pi\right]$
+    
+    \item $y=\dfrac{1-x}{1+x}$
+    
+    {+)~ }Ta thấy: $x \in \mathbb{R}\setminus \{-1\} \Rightarrow y \in \mathbb{R}\setminus \{-1\}$
+    
+    {+)~ }Ta có: $y=\dfrac{1-x}{1+x}\Rightarrow x=\dfrac{1-y}{1+y}$
+    
+    {+)~ }Kết luận: Hàm ngược của hàm số đã cho là $f^{-1}(x)=\dfrac{1-x}{1+x}$ với $x\not = -1$
+    
+    \item $y=\dfrac{1}{2}(e^x-e^{-x})$
+
+    {+)~ }Ta thấy: $x \in \mathbb{R} \Rightarrow y \in \mathbb{R}$
+    
+    {+)~ }Đặt $e^x=t$ $(t>0)$ $\Rightarrow y=\dfrac{1}{2}\left(t-\dfrac{1}{t}\right)$
+    
+    Khi đó, ta có: $t^2-2yt-1=0\Rightarrow \left[
+\begin{matrix}
+&t=y+\sqrt{y^2+1} >0 &\quad\text{(Thoả mãn)}\\
+&t=y-\sqrt{y^2+1} <0 &\quad\text{(Loại)}\\
+\end{matrix}
+\right.$
+    
+    $\Rightarrow e^x=y+\sqrt{y^2+1}\Rightarrow x=\ln \left(y+\sqrt{y^2+1}\right)$
+    
+     {+)~ }Kết luận: Hàm ngược của hàm số đã cho là $f^{-1}(x)=\ln \left(x+\sqrt{x^2+1}\right)$ với $x\in \mathbb{R}$    
+\end{enumerate}
+
+\begin{cau}
+Xét tính chẵn, lẻ của các hàm số:
+\begin{tasks}(2)
+    \task $f(x)=a^x+a^{-x} \quad (a>0)$
+    \task $f(x)=\ln(x+\sqrt{1+x^2})$
+    \task $f(x)=\sin x+ \cos x$
+    \task $f(x)=\arcsin(\tan x)$
+\end{tasks}
+\end{cau}
+
+\begin{center} 
+\textbf{[Hướng dẫn giải]} 
+\end{center}
+
+\begin{enumerate}[label = \alph*), wide, labelwidth=!, labelindent=0pt]
+    \item $f(x)=a^x+a^{-x} \quad (a>0)$
+    
+    {+)~ }Miền xác định của hàm số là $D=\mathbb{R}$. Khi đó, $\forall~ x\in D$ thì $-x\in D$
+    
+    {+)~ }Ta có: $f(-x)=a^{-x}+a^{x}=f(x) ~\forall~ x\in D$
+    
+    {+)~ }Kết luận: Hàm số đã cho là một hàm chẵn
+    
+    \item $f(x)=\ln(x+\sqrt{1+x^2})$
+    
+    {+)~ }Ta có: $x+\sqrt{1+x^2}>0 ~\forall~ x\in \mathbb{R}$
+    
+    $\Rightarrow$ Miền xác định của hàm số là $D=\mathbb{R}$. Khi đó, $\forall~ x\in D$ thì $-x\in D$
+
+    {+)~ }Ta có: $f(-x)=\ln\left(-x+\sqrt{1+(-x)^2}\right)=\ln\left(\dfrac{1}{x+\sqrt{1+x^2}}\right)$
+    
+    \hspace{86pt} $=-\ln\left(x+\sqrt{1+x^2}\right)=-f(x) ~\forall~ x\in \mathbb{R}$
+
+    {+)~ }Kết luận: Hàm số đã cho là một hàm lẻ
+
+    \item $f(x)=\sin x+\cos x$
+    
+    {+)~ }Miền xác định của hàm số là $D=\mathbb{R}$. Khi đó, $\forall~ x\in D$ thì $-x\in D$
+    
+    {+)~ }Ta có: $\begin{cases}
+        f\left(\dfrac{2\pi}{3}\right)=\dfrac{\sqrt{3}}{2}-\dfrac{1}{2}\\f\left(\dfrac{-2\pi}{3}\right)=\dfrac{-\sqrt{3}}{3}-\dfrac{1}{2}
+    \end{cases}\Rightarrow f\left(\dfrac{-\pi}{3}\right)\not =\pm f\left(\dfrac{\pi}{3}\right)$
+    
+    {+)~ }Kết luận: Hàm số đã cho không chẵn, không lẻ
+    
+    \item $f(x)=\arcsin{(\tan x)}$
+    
+    {+)~ }ĐKXĐ: $-1\leq \tan x\leq 1\Rightarrow \dfrac{-\pi}{4}+k\pi \leq x\leq \dfrac{\pi}{4} +k\pi$ với $k \in \mathbb{Z}$
+    
+    $\Rightarrow$ Miền xác định $D$ đối xứng qua $x = 0$. Khi đó, $\forall~ x \in D$ thì $ -x \in D$
+    
+    {+)~ }Ta có: $f(-x)=\arcsin(\tan(-x))=-\arcsin(\tan x)=-f(x) ~\forall~ x \in D$
+    
+    {+)~ }Kết luận: Hàm số đã cho là một hàm lẻ
+\end{enumerate}
+
+\begin{cau}
+    Chứng minh rằng bất kì hàm số $f(x)$ nào xác định trong một khoảng đối xứng $(-a, a),~ (a>0)$ cùng đều biểu diễn được duy nhất dưới dạng tổng của một hàm số chẵn với một hàm số lẻ
+\end{cau}
+
+\begin{center} 
+\textbf{[Hướng dẫn giải]} 
+\end{center}
+
+{+)~ }Giả sử ta phân tích được hàm số $f(x)=g(x)+h(x)$, trong đó $g(x)$ là hàm chẵn và $h(x)$ là hàm lẻ
+
+{+)~ }Ta có: $\begin{cases}
+    f(x)=g(x)+h(x)\\f(-x)=g(-x)+h(-x)
+\end{cases}\Rightarrow \begin{cases}
+    f(x)=g(x)+h(x)\\f(-x)=g(x)-h(x)
+\end{cases}$
+
+$\Rightarrow$ Đây là hệ phương trình tuyến tính có hai ẩn: $D=\begin{bmatrix}
+    1 & 1\\ 1 & -1 
+\end{bmatrix} = -2\not =0$
+
+Khi đó, hệ luôn có nghiệm và có nghiệm duy nhất: $\begin{cases}
+    g(x)=\dfrac{f(x)+f(-x)}{2}\\
+    h(x)=\dfrac{f(x)-f(-x)}{2}
+\end{cases}$
+
+{+)~ }Kết luận: Bất kì hàm số nào thỏa mãn yêu cầu đề bài luôn biểu diễn được duy nhất dưới dạng tổng của một hàm số chẵn với một hàm số lẻ.
+
+\begin{cau}
+Cho $f(x)$ và $g(x)$ là hai hàm số xác định trên khoảng đối xứng $(-a,a),~ (a>0)$. Chứng minh:
+    \begin{tasks}
+        \task Nếu $f(x)$ và $g(x)$ là hàm chẵn thì tổng và tích của chúng là hàm chẵn 
+        \task Nếu $f(x)$ và $g(x)$ là hàm lẻ thì tổng của chúng là hàm lẻ, còn tích của chúng là hàm chẵn.
+        \task Nếu $f(x)$ là hàm lẻ, $g(x)$ là hàm chẵn thì tích của chúng là hàm lẻ
+    \end{tasks}
+\end{cau}
+
+\begin{center} 
+\textbf{[Hướng dẫn giải]} 
+\end{center}
+
+Gọi miền xác định của hai hàm số trên là $D$
+        
+    \begin{enumerate}[label = \alph*), wide, labelwidth=!, labelindent=0pt]
+        %============Câu a================%
+        \item~
+        
+            {+)~ }Ta có: $f(x)$ và $g(x)$ là hàm chẵn nên 
+                $\begin{cases} 
+                f(x) = f(-x) \\
+                g(x) = g(-x)
+                \end{cases}$ $\forall~ x \in D$ 
+                
+            {+)~ }Gọi $h(x) = f(x) + g(x)$ là hàm tổng của $f(x)$ và $g(x)$
+            
+            \hspace{33pt} $k(x) = f(x).g(x)$ là hàm tích của $f(x)$ và $g(x)$
+            
+            Khi đó: $\begin{cases}
+                    h(x) = f(x) + g(x) = f(-x) + g(-x) = h(-x) \\
+                    k(x) = f(x).g(x) = f(-x).g(-x) = k(-x)
+                \end{cases}$ $\forall~ x \in D$ 
+                
+            {+)~ }Kết luận: Hàm tổng và tích của $f(x)$ và $g(x)$ là hàm chẵn
+        
+        %===============Câu b===============%
+        \item~
+        
+        {+)~ }Ta có: $f(x)$ và $g(x)$ là hàm lẻ nên 
+                $\begin{cases} f(-x) = -f(x)\\
+                    g(-x) = -g(x)
+                \end{cases}$ $\forall~ x \in D$
+                
+                {+)~ }Gọi $h(x) = f(x) + g(x)$ là hàm tổng của $f(x)$ và $g(x)$
+            
+            \hspace{33pt} $k(x) = f(x).g(x)$ là hàm tích của $f(x)$ và $g(x)$
+            
+            Khi đó: $\begin{cases}
+                    h(-x)= f(-x) + g(-x) = -f(x) -g(x) = -h(x)\\
+                    k(-x)=f(-x).g(-x) = f(x).g(x) =k(x)
+                \end{cases}$ $\forall~ x \in D$
+                
+            {+)~ }Kết luận: Hàm tổng của $f(x)$ và $g(x)$ là hàm lẻ, hàm tích của $f(x)$ và $g(x)$ là hàm chẵn
+
+        %===============Hết câu b==================%
+        
+        %============Câu c================%
+        \item~
+        
+       {+)~ }Ta có: $f(x)$ là hàm lẻ, $g(x)$ là hàm chẵn nên 
+                $\begin{cases} f(-x) = -f(x)\\
+                    g(x) = g(-x)
+                \end{cases}$ $\forall~ x \in D$
+                
+        {+)~ }Gọi $k(x) = f(x).g(x)$ là hàm tích của $f(x)$ và $g(x)$
+        
+        Khi đó: $k(-x) = f(-x).g(-x) = -f(x).g(x) = -k(x)$ $\forall~ x \in D$
+        
+        {+)~ }Kết luận: Hàm tích $f(x)$ và $g(x)$ là hàm lẻ.
+        %===========Hết câu c================%
+    \end{enumerate}
+
+\begin{cau}
+Xét tính tuần hoàn và tìm chu kỳ của các hàm số sau (nếu có):
+    \begin{tasks}(2)
+        \task $f(x)= A\cos{\lambda x} + B\sin{\lambda x}$
+        \task $f(x)= \sin{x^2}$
+        \task $f(x) = \sin{x} + \dfrac{1}{2}\sin{2x}+\dfrac{1}{3}\sin{3x}$
+        \task $f(x)= \cos^2{x}$ 
+    \end{tasks}
+\end{cau}
+\begin{center} \textbf{[Hướng dẫn giải]} \end{center}
+    \begin{enumerate}[label = \alph*), wide, labelwidth=!, labelindent=0pt]
+        \item $f(x)= A\cos{\lambda x} + B\sin{\lambda x}$ 
+        
+            {+)~ }TH1: $A=B=0$
+            
+            Khi đó, $f(x)=0$ tuần hoàn nhưng không có chu kỳ cơ sở
+            
+            {+)~ }TH2: $A^2+B^2 > 0$ 
+
+            \begin{itemize}[label = $
+            \bullet$]
+                \item Với $\lambda =0$, ta có: $f(x) = A$ là hàm tuần hoàn nhưng không có chu kỳ cơ sở 
+                \item Với $\lambda \ne 0$, ta có: $A\cos{\lambda x} + B\sin{\lambda x} = A\cos{\lambda \left(x+ \dfrac{2\pi}{|\lambda|}\right)} + B\sin{\lambda \left(x+ \dfrac{2\pi}{|\lambda|}\right)} ~\forall~ x \in \mathbb{R}$
+            \end{itemize}
+
+            \begin{itemize}[label = $\circ$]
+                \item Ta sẽ chứng minh $T=\dfrac{2\pi}{|\lambda|} $ là chu kỳ cơ sở của $f(x)$
+                \item Giả sử tồn tại giá trị $T_1$ sao cho $0<T_1<T$ và:
+            \end{itemize}
+            \begin{center}
+                $A\cos{\lambda x} + B\sin{\lambda x} = A\cos{\left(\lambda \left[ x+ T_1\right]\right)} + B\sin{\left(\lambda \left[ x+ T_1\right]\right)} \quad (\ast)$ \\
+            \end{center}
+            \begin{itemize}[label = $\circ$]
+                \item Ta thấy $(\ast)$ đúng $\forall~ x \in \mathbb{R}$ nên:
+            \end{itemize}
+\hspace{26pt} $\odot$ Tại $x=0$, ta có: $A\cos{(\lambda T_1)} + B\sin{(\lambda T_1)} =A$
+
+\hspace{26pt} $\odot$ Tại $x=\dfrac{\pi}{2\lambda}$, ta có: $ -A\sin(\lambda T_1) + B\cos(\lambda T_1)= B$
+
+$\Rightarrow A^2\cos{(\lambda T_1)} + B^2\cos(\lambda T_1) =A^2+B^2 \Rightarrow \cos{(\lambda T_1)} = 1 \Rightarrow T_1 = \dfrac{k2\pi}{|\lambda|}$ với $k \in \mathbb{N^*}$
+
+\begin{itemize}[label = $\circ$]
+\item Do $0<T_1<T $ nên không tồn tại $T_1$ 
+\end{itemize}
+$\Rightarrow$ Hàm số $f(x)$ tuần hoàn khi $\lambda \ne 0$ với chu kỳ cơ sở $T=\dfrac{2\pi}{|\lambda|}$
+
+{+)~ }Kết luận: 
+\begin{itemize}[label = $\bullet$]
+    \item Nếu $A^2+B^2 = 0$ thì hàm số tuần hoàn nhưng không có chu kỳ
+    \item Nếu $A^2 + B^2 > 0$ và:
+    \begin{itemize}[label = $\circ$]
+        \item $\lambda = 0$ thì hàm số tuần hoàn nhưng không có chu kỳ
+        \item $\lambda \ne 0$ thì hàm số tuần hoàn với chu kỳ cơ sở $T=\dfrac{2\pi}{|\lambda|}$  
+    \end{itemize}
+\end{itemize}
+
+\item $f(x)= \sin{x^2}$ 
+
+{+)~ }Giả sử hàm số $f(x)$ tuần hoàn với chu kỳ $T>0$
+
+Khi đó, ta có: $\sin{x^2} = \sin{(x+T)^2} \quad (\ast)$
+
+{+)~ }Ta thấy $(\ast)$ đúng $\forall~ x \in \mathbb{R}$ nên:
+
+\begin{itemize}[label = $\bullet$]
+    \item Tại $x=0$, ta có: $\sin{T^2}=0 \Rightarrow T^2 = k\pi\Rightarrow T = \sqrt{k\pi}$ với $k \in \mathbb{N^*}$
+    \item Tại $x=\sqrt{\pi}$, ta có: $\sin{(\sqrt{\pi}+T)^2}=0 \Rightarrow (\sqrt{\pi}+T)^2 = l\pi$ với $l \in \mathbb{N^*}$
+    
+    $\Rightarrow (\sqrt{\pi}+\sqrt{k\pi} )^2 = l\pi \Rightarrow k$ là số chính phương do $l \in \mathbb{N^*}$
+
+    Khi đó, ta đặt $k = h^2$ với $h \in \mathbb{N^*}$ thì $T = h\sqrt{\pi}$
+    \item Tại $x= \sqrt{\dfrac{\pi}{2}}$, ta có: $\sin{\left(\sqrt{\dfrac{\pi}{2}}+T\right)^2} = 1$
+
+    \hspace{78pt} $\Rightarrow \Big(\sqrt{\dfrac{\pi}{2}}+T\Big)^2 = \dfrac{\pi}{2} + 2m\pi \quad (m \in \mathbb{N^*})$
+
+\hspace{78pt} $\Rightarrow \Big(\sqrt{\dfrac{\pi}{2}}+h\sqrt{\pi}\Big)^2 = \dfrac{\pi}{2} + 2m\pi$
+
+\hspace{78pt} $\Rightarrow \dfrac{\pi }{2} + \dfrac{2h\pi}{\sqrt{2}} + h^2\pi = \dfrac{\pi}{2} + 2m\pi $
+
+\hspace{78pt} $\Rightarrow 2m = h^2 + \sqrt{2}h \quad \big(\text{vô lý do } m \in \mathbb{N^*}\big) $
+\end{itemize}
+
+{+)~ }Kết luận: Hàm số đã cho không tuần hoàn
+
+        \item $f(x) = \sin{x} + \dfrac{1}{2}\sin{2x}+\dfrac{1}{3}\sin{3x}$
+        
+        {+)~ }Ta có: $\sin{x} + \dfrac{1}{2}\sin{2x}+\dfrac{1}{3}\sin{3x} = \sin{(x+2\pi)} + \dfrac{1}{2}\sin{2(x+2\pi)}+\dfrac{1}{3}\sin{3(x+2\pi)} ~\forall~ x \in \mathbb{R}$
+        
+        {+)~ }Ta sẽ chứng minh $T=2\pi$ là chu kỳ cơ sở  của $f(x)$
+        
+        {+)~ }Giả sử tồn tại  $T_1$ sao cho $0<T_1<T$ và:
+        \begin{center}
+            $\sin{x} + \dfrac{1}{2}\sin{2x}+\dfrac{1}{3}\sin{3x} = \sin{(x+T_1)} + \dfrac{1}{2}\sin{2(x+T_1)}+\dfrac{1}{3}\sin{3(x+T_1)} \quad (\ast)$
+        \end{center}
+{+)~ }Ta thấy $(\ast)$ đúng $\forall~ x \in \mathbb{R}$ nên:
+\begin{itemize}[label = $\bullet$]
+    \item Tại $x=0$, ta có: $\sin{T_1} + \dfrac{1}{2}\sin{2T_1}+\dfrac{1}{3}\sin{3T_1}=0 \quad (1)$
+    \item Tại $x=\pi$, ta có: $-\sin{T_1} + \dfrac{1}{2}\sin{2T_1}-\dfrac{1}{3}\sin{3T_1}=0 \quad (2)$ 
+\end{itemize} 
+
+{+)~ }Từ (1) và (2), ta có: $\sin{T_1} + \dfrac{1}{3}\sin{3T_1} =0$
+
+\hspace{97pt}$\Rightarrow \sin{T_1} +\dfrac{1}{3}\Big(3\sin{T_1}-4\sin^3{T_1}\Big) =0$
+
+\hspace{97pt}$\Rightarrow \sin{T_1}\Big(2-\dfrac{4}{3}\sin^2{T_1}\Big)=0$
+
+{+)~ }Do $0 < T_1 < T$ nên phương trình trên có nghiệm $T_1 = \pi$
+
+{+)~ }Thử lại với $T_1=\pi$ thì tại $x_0=\dfrac{\pi}{2}$, ta có:
+\begin{center}
+$\sin{x_0} +\dfrac{1}{2}\sin{2x_0}+\dfrac{1}{3}\sin{3x_0} \ne \sin{(x_0+\pi)} + \dfrac{1}{2}\sin{2(x_0+\pi)}+\dfrac{1}{3}\sin{3(x_0+\pi)}$
+\end{center}
+
+$\Rightarrow$ Không tồn tại $T_1$ thỏa mãn giả sử trên
+
+{+)~ }Kết luận: Hàm số đã cho tuần hoàn với chu kỳ cơ sở $T=2\pi$
+
+\item  $f(x)= \cos^2{x}$ 
+
+{+)~ }Ta có: $f(x) =\cos^2x = \dfrac{\cos{2x}+1}{2} = \dfrac{\cos{(2x+2\pi)+1}}{2} = \dfrac{\cos{2(x+\pi)}+1}{2} = f(x+\pi) $
+
+{+)~ }Ta sẽ chứng minh $T=\pi$ là chu kỳ cơ sở của $f(x)$
+
+{+)~ }Giả sử tồn tại $T_1$ sao cho $0<T_1<T$ và $f(x) = f(x+T_1)$
+
+$\Rightarrow \dfrac{\cos{2x}+1}{2} = \dfrac{\cos{2(x+T_1)}+1}{2}$
+
+$\Rightarrow \cos{2x} = \cos{2(x+T_1)} \quad (\ast)$
+
+{+)~ }Ta thấy $(\ast)$ đúng $\forall~ x \in \mathbb{R}$ nên tại $x=0$ ta có: 
+\begin{center}
+    $\cos{(2T_1)}=1 \Rightarrow 2T_1 = k2\pi \Rightarrow T_1 = k\pi$ với $k \in \mathbb{N^*}$
+\end{center}
+
+{+)~ }Do $0<T_1<T$ nên không tồn tại $T_1$ thỏa mãn giả sử trên
+
+{+)~ }Kết luận: Hàm số đã cho tuần hoàn với chu kỳ cơ sở $T=\pi$
+    
+\end{enumerate}
+\end{document}
